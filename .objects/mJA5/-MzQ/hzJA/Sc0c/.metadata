@@ -1,0 +1,13 @@
+﻿{
+  "Name": "元素 '新建文档'",
+  "Type": "Element",
+  "Id": "Sc0cS3nOpkqXTuo1Om1K_Q",
+  "Reference": "V37UO-nxA0SG182om3oalQ/Sc0cS3nOpkqXTuo1Om1K_Q",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/hzJAM7ahukybWPdv8N3PYw",
+  "Created": "2025-07-02T07:56:46.1656025Z",
+  "Updated": "2025-07-02T07:56:46.1656025Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
