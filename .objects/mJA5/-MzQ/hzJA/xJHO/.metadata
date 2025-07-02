@@ -1,0 +1,14 @@
+﻿{
+  "Name": "2Fist",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "xJHOTg4BI0yIAAO4AwymvQ",
+  "Reference": "V37UO-nxA0SG182om3oalQ/xJHOTg4BI0yIAAO4AwymvQ",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/hzJAM7ahukybWPdv8N3PYw",
+  "Created": "2025-07-02T07:27:22.3757654Z",
+  "Updated": "2025-07-02T07:27:22.3757654Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
