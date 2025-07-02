@@ -1,0 +1,14 @@
+﻿{
+  "Name": "新建",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "AiY5u_D9mECrAJyINaz0Hw",
+  "Reference": "V37UO-nxA0SG182om3oalQ/AiY5u_D9mECrAJyINaz0Hw",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/fyMBEa6zt0WwNxeGxRdsZQ",
+  "Created": "2025-07-01T10:56:12.5278422Z",
+  "Updated": "2025-07-01T10:56:12.5278422Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

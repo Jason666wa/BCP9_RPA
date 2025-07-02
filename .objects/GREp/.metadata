@@ -1,0 +1,12 @@
+﻿{
+  "Name": "FillBCP9-绝缘电阻测量和工频耐压试验 - Excel",
+  "Type": "App",
+  "Id": "GREphwDWzk-933ZrqyuN6Q",
+  "Reference": "V37UO-nxA0SG182om3oalQ/GREphwDWzk-933ZrqyuN6Q",
+  "Created": "2025-07-01T11:11:56.1789636Z",
+  "Updated": "2025-07-01T11:11:56.1789636Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

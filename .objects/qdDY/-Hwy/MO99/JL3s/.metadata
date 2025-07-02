@@ -1,0 +1,13 @@
+﻿{
+  "Name": "退出文档",
+  "Type": "Element",
+  "Id": "JL3sy9gVXkqe_tXgo5pDYg",
+  "Reference": "V37UO-nxA0SG182om3oalQ/JL3sy9gVXkqe_tXgo5pDYg",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/MO99LtV3xUCPRT_8HQqVnA",
+  "Created": "2025-07-02T03:01:01.5673699Z",
+  "Updated": "2025-07-02T03:01:01.5673699Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

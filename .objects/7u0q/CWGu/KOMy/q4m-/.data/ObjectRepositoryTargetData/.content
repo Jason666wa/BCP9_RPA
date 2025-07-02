@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4lgchhOULUqcEp_8SQ1vgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f3ef773b-478b-4e21-a42d-e4cde8cd1afb" CvTextArea="75, 362, 31, 15" CvTextArgument="SE0" CvType="Text" DesignTimeRectangle="75, 350, 34, 40" FullSelectorArgument="&lt;wnd aaname='浏览器窗格' cls='DirectUIHWND' /&gt;&lt;wnd aaname='控制项宿主' cls='NamespaceTreeControl' title='命名空间树状控制项' /&gt;&lt;wnd ctrlid='100' title='导航窗格' /&gt;&lt;ctrl name='桌面 (已固定)' role='outline item' /&gt;" Guid="12b2593b-6ff4-4a7b-909b-e952c52686b6" ScopeSelectorArgument="&lt;wnd app='wxworkweb.exe' cls='#32770' title='另存为' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f3ef773b-478b-4e21-a42d-e4cde8cd1afb" CvTextArea="20, 8, 70, 17" CvTextArgument="+ B1*" CvType="Text" DesignTimeRectangle="3, 3, 752, 22" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='浏览器窗格' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='保存类型:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='保存类型:' role='combo box' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl role='text' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Microsoft Excel Worksheet' /&gt;" Guid="96ed1cdb-9126-494d-9d8d-ba39c25ff25e" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f43f7385fb699cd00949be03527e03a3.png" xmlns="">0z7zJQK8nWUSdUH7MAUkBRQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

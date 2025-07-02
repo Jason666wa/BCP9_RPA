@@ -1,0 +1,13 @@
+﻿{
+  "Name": "另存为",
+  "Type": "Screen",
+  "Id": "KOMy5deBnkqWq3KQCCIzSQ",
+  "Reference": "V37UO-nxA0SG182om3oalQ/KOMy5deBnkqWq3KQCCIzSQ",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/CWGuidjSE0G_vcNIOy-A5g",
+  "Created": "2025-07-02T03:10:32.0585463Z",
+  "Updated": "2025-07-02T03:10:32.0585463Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

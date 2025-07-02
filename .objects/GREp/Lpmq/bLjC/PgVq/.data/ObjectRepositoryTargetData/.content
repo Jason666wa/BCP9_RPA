@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="yHsqUWe6WEGDJx_w34kPOQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="5c0174bc-28b3-447c-99ed-628f81e63616" CvElementArea="422, 115, 111, 31" CvTextArea="452, 122, 47, 17" CvTextArgument="Close" CvType="Button" DesignTimeRectangle="425, 118, 108, 29" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='cmdClose' /&gt;" Guid="a1949bd0-9939-416f-b8a1-9c1bfcc2b702" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='frmRun_CaseSave' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="19, 81, 393, 289" FuzzySelectorArgument="&lt;wnd ctrlname='tabs' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='P0' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' check:text='General' /&gt;" Guid="146986c0-753c-44fb-a2ff-8f9a630f0768" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="237beaa8aa6e051a460d1869745a8a30.png" xmlns="">0hsZB1Vmdnk632We1tVJiVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

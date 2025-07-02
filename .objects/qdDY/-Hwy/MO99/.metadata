@@ -1,0 +1,13 @@
+﻿{
+  "Name": "企业微信-文档",
+  "Type": "Screen",
+  "Id": "MO99LtV3xUCPRT_8HQqVnA",
+  "Reference": "V37UO-nxA0SG182om3oalQ/MO99LtV3xUCPRT_8HQqVnA",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/-HwyXcn-eE2ZjOuiWIe2gA",
+  "Created": "2025-07-02T02:43:36.0750819Z",
+  "Updated": "2025-07-02T02:43:36.0750819Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

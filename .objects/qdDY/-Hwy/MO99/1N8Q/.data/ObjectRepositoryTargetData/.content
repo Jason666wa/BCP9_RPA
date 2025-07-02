@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xZPt_1UNQkieKuT5E03ipA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c6a7b206-bf86-4a46-bd76-69b8fe23f355" CvTextArea="1375, 593, 129, 16" CvTextArgument="TttExcelsaNa (.xlsx)" CvType="Text" DesignTimeRectangle="1357, 580, 273, 37" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' /&gt;&lt;ctrl name='本地Excel表格 (.xlsx)' role='menu item' /&gt;" Guid="ba3c4711-c9b9-4221-a253-d878837276ad" ScopeSelectorArgument="&lt;wnd app='wemail.exe' cls='Qt*QWindowIcon' title='企业微信-文档' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c6a7b206-bf86-4a46-bd76-69b8fe23f355" CvTextArea="1375, 666, 72, 17" CvTextArgument="BĦ (.png)" CvType="Text" DesignTimeRectangle="1357, 653, 273, 37" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='图片 (.png)' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='图片 (.png)' /&gt;" Guid="a6689805-e7db-4d5a-8425-0fd91fe16bb4" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1159a5948bfa60858b4acdeefd38621b.png" xmlns="">0p3JwMxeqpUCIHKm2mMbdFQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

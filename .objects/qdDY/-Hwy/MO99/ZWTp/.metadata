@@ -1,0 +1,14 @@
+﻿{
+  "Name": "智能制造新员工培训考试",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "ZWTpSAeh6EaDUYKd8aDkig",
+  "Reference": "V37UO-nxA0SG182om3oalQ/ZWTpSAeh6EaDUYKd8aDkig",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/MO99LtV3xUCPRT_8HQqVnA",
+  "Created": "2025-07-02T02:56:59.7911049Z",
+  "Updated": "2025-07-02T02:56:59.7911049Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
