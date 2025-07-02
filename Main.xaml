@@ -50,6 +50,79 @@
       <x:String>UiPath.Database.Activities</x:String>
       <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
       <x:String>UiPath.UIAutomationNext.Models.ExtractData</x:String>
+      <x:String>UiPath.UIAutomationNext</x:String>
+      <x:String>Microsoft.VisualBasic.CompilerServices</x:String>
+      <x:String>Microsoft</x:String>
+      <x:String>Microsoft.Win32.SafeHandles</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>System.Net</x:String>
+      <x:String>System.Globalization</x:String>
+      <x:String>System.Configuration.Assemblies</x:String>
+      <x:String>System.CodeDom.Compiler</x:String>
+      <x:String>System.Buffers</x:String>
+      <x:String>System.Buffers.Text</x:String>
+      <x:String>System.Buffers.Binary</x:String>
+      <x:String>System.Threading</x:String>
+      <x:String>System.Threading.Tasks</x:String>
+      <x:String>System.Threading.Tasks.Sources</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Text.Unicode</x:String>
+      <x:String>System.Security.Principal</x:String>
+      <x:String>System.Security.Permissions</x:String>
+      <x:String>System.Security.Cryptography</x:String>
+      <x:String>System.Runtime</x:String>
+      <x:String>System.Runtime.Remoting</x:String>
+      <x:String>System.Runtime.ExceptionServices</x:String>
+      <x:String>System.Runtime.ConstrainedExecution</x:String>
+      <x:String>System.Runtime.Versioning</x:String>
+      <x:String>System.Runtime.Loader</x:String>
+      <x:String>System.Runtime.Intrinsics</x:String>
+      <x:String>System.Runtime.Intrinsics.Wasm</x:String>
+      <x:String>System.Runtime.Intrinsics.Arm</x:String>
+      <x:String>System.Runtime.Intrinsics.X86</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+      <x:String>System.Runtime.InteropServices.ObjectiveC</x:String>
+      <x:String>System.Runtime.InteropServices.Marshalling</x:String>
+      <x:String>System.Runtime.InteropServices.ComTypes</x:String>
+      <x:String>System.Runtime.CompilerServices</x:String>
+      <x:String>System.Resources</x:String>
+      <x:String>System.Reflection.Metadata</x:String>
+      <x:String>System.Reflection.Emit</x:String>
+      <x:String>System.IO.Enumeration</x:String>
+      <x:String>System.Diagnostics.SymbolStore</x:String>
+      <x:String>System.Diagnostics.Contracts</x:String>
+      <x:String>System.Diagnostics.CodeAnalysis</x:String>
+      <x:String>System.Diagnostics.Tracing</x:String>
+      <x:String>System.Collections.Concurrent</x:String>
+      <x:String>Internal</x:String>
+      <x:String>System.CodeDom</x:String>
+      <x:String>Microsoft.CSharp</x:String>
+      <x:String>System.Linq.Expressions.Interpreter</x:String>
+      <x:String>System.Dynamic</x:String>
+      <x:String>UiPath.Workflow.Runtime</x:String>
+      <x:String>System.Activities.Tracking</x:String>
+      <x:String>System.Activities.Statements.Tracking</x:String>
+      <x:String>System.Activities.Runtime</x:String>
+      <x:String>System.Activities.Runtime.DurableInstancing</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Activities.ParallelTracking</x:String>
+      <x:String>System.Activities.Hosting</x:String>
+      <x:String>System.Activities.Persistence</x:String>
+      <x:String>System.Activities.DurableInstancing</x:String>
+      <x:String>System.ComponentModel.Design.Serialization</x:String>
+      <x:String>System.Text.RegularExpressions</x:String>
+      <x:String>System.Security.Authentication.ExtendedProtection</x:String>
+      <x:String>System.Timers</x:String>
+      <x:String>System.ComponentModel.Design</x:String>
+      <x:String>System.Xml.Schema</x:String>
+      <x:String>System.Xml.Xsl</x:String>
+      <x:String>System.Xml.Xsl.Runtime</x:String>
+      <x:String>System.Xml.XPath</x:String>
+      <x:String>System.Xml.Resolvers</x:String>
+      <x:String>Microsoft.CodeAnalysis</x:String>
+      <x:String>Microsoft.VisualBasic.FileIO</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -113,6 +186,62 @@
       <AssemblyReference>UiPath.OrchestratorClient</AssemblyReference>
       <AssemblyReference>UiPath.Database</AssemblyReference>
       <AssemblyReference>UiPath.Database.Activities</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualStudio.Validation</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Net.Security</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xml.XPath.XDocument</AssemblyReference>
+      <AssemblyReference>Microsoft.CodeAnalysis.Features</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -121,178 +250,81 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="925.2,5160" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="925.2,3826.4" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="企业微信-文档" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="611.2,1151.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="0eeb91a8-34f9-4a49-8d48-99a7f48b1955" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="企业微信" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="611.2,908.8" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" ScopeGuid="fca801b0-7dc5-4baa-9d0a-cca07f1ce7a9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,852" sap2010:WorkflowViewState.IdRef="Sequence_10">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,609.6" sap2010:WorkflowViewState.IdRef="Sequence_12">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'graphic'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_6" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0eeb91a8-34f9-4a49-8d48-99a7f48b1955" Version="V4">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="183236c0-309f-4e34-b2fe-e55aa54388c3" ContentHash="RFjB5G6PVkWjvaxa1Eov4w" CvElementArea="1869, 70, 31, 29" CvType="Icon" DesignTimeRectangle="1870, 69, 30, 31" ElementType="Icon" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' /&gt;&lt;ctrl name='titlebar' role='tool bar' /&gt;&lt;ctrl name='file' role='grouping' /&gt;&lt;ctrl role='graphic' /&gt;" Guid="62d19a2c-0322-4686-a892-b5619c35a2ef" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACWSURBVFhH7da7CYBAEIRhKxMRA7EXwcR6RBTb8XFaiHcFrGzoBJsoPmA+2MRg+LMzko+I8MNbGIIYghiCGILMEO+9tN0gTdtfOt3Yd4/zJ2aIc5uUVX3L6ZbFDHkSQxBD0D9CFrdKkhUSp/ml041pXnD+xAwJIcg4zbecblnMkCcxBDEEmSH6dPM34C0MQQxBDEGfCTkA1Y/tWPrm66YAAAAASUVORK5CYII=" InformativeScreenshot="640e5a0e88f72c14e264ac112bf8e73b.png" Reference="V37UO-nxA0SG182om3oalQ/KaHNYYICO0W6_2L_lMqHsQ" ScopeSelectorArgument="&lt;wnd app='wemail.exe' cls='Qt*QWindowIcon' title='企业微信-文档' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="183236c0-309f-4e34-b2fe-e55aa54388c3" CvElementArea="1770, 69, 28, 29" CvType="Icon" DesignTimeRectangle="1770, 69, 30, 31" ElementType="Icon" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' /&gt;&lt;ctrl name='titlebar' role='tool bar' /&gt;&lt;ctrl idx='3' role='graphic' /&gt;" Guid="2c090a76-cfac-4133-9dee-612e7369013d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGISURBVFhH7dZLSwJRGMZxP1lRUmlZRhcQ2kQUQTeKNK+FHyKKIoigshsZRddNJZJ2Q22TdllZmS5sbQpPnLOQeIfGOQpWMn8YZF6dOT/OuBgN/kgaOvitVAhNhdBUCK0kiP8igJ6+AcTjL/Qr4YqGnJ75UFPXhKpaHYztppIxRUEOjk44wO50888J+yQMrZ14fHqmP1WcMGT/8BjVWj0861sIR+44JJvNwuqYQmNLB6KxB3qJooQgDMEWZghWKBzh56xcLgeHy416vRGvbwlyZeGEIN6dPWx7d/Pn3yEshlnxbCCZSuVnShOC0CiklP4HpNAWK4FkMp9Ipz/oWJIshP3x7qMxOs6nBLK6tgmLzUXHkmQhbBG22E8pgSwuLWN41ELHkioDwp4923q5ygJRkgqhVRaEvW8Egld0LNTs3ALGzDY6liQL6e0fgtnqRPDymu+M6HHu88PU1Y3pmXl6a0mykJvbEAZHxqFtaOaPSfTQGdr4y1PiPUlvLUkWUs5UCE2F0FQI7Qs6r94Cb3m2KAAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
-            </uix:NClick>
-            <uix:NHover DisplayName="Hover '退出文档'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NHover_1" ScopeIdentifier="0eeb91a8-34f9-4a49-8d48-99a7f48b1955" Version="V4">
-              <uix:NHover.Target>
-                <uix:TargetAnchorable CVScreenId="b2701f45-199b-42c3-8470-fe91b5d061ac" ContentHash="Sh5cYpi7VEiWx8uzfXm6Ew" CvElementArea="1869, 578, 19, 20" CvTextArea="1646, 580, 30, 16" CvTextArgument="581" CvType="ArrowButton" DesignTimeRectangle="1628, 569, 274, 39" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' /&gt;&lt;ctrl name='导出' role='menu item' /&gt;" Guid="bcaefa46-02c9-4672-8824-7f369f532624" InformativeScreenshot="feaf13d5795ea97c5f548bd68f503cc3.png" Reference="V37UO-nxA0SG182om3oalQ/JL3sy9gVXkqe_tXgo5pDYg" ScopeSelectorArgument="&lt;wnd app='wemail.exe' cls='Qt*QWindowIcon' title='企业微信-文档' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="b2701f45-199b-42c3-8470-fe91b5d061ac" CvTextArea="1646, 715, 57, 15" CvTextArgument="IRHXH" CvType="Text" DesignTimeRectangle="1628, 704, 274, 38" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='退出文档' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='退出文档' /&gt;" Guid="4707158e-eb22-4889-a77a-ea960e523c74" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                  <uix:TargetAnchorable.PointOffset>
-                    <uix:PointOffset Position="BottomLeft" X="28" Y="-15" />
-                  </uix:TargetAnchorable.PointOffset>
-                </uix:TargetAnchorable>
-              </uix:NHover.Target>
-              <uix:NHover.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NHover.VerifyOptions>
-            </uix:NHover>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '图片 (.png)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_7" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0eeb91a8-34f9-4a49-8d48-99a7f48b1955" Version="V4">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="c6a7b206-bf86-4a46-bd76-69b8fe23f355" ContentHash="xZPt_1UNQkieKuT5E03ipA" CvTextArea="1375, 593, 129, 16" CvTextArgument="TttExcelsaNa (.xlsx)" CvType="Text" DesignTimeRectangle="1357, 580, 273, 37" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' /&gt;&lt;ctrl name='本地Excel表格 (.xlsx)' role='menu item' /&gt;" Guid="ba3c4711-c9b9-4221-a253-d878837276ad" InformativeScreenshot="1159a5948bfa60858b4acdeefd38621b.png" Reference="V37UO-nxA0SG182om3oalQ/1N8Q5MGAgke_ZWQYsxoH9A" ScopeSelectorArgument="&lt;wnd app='wemail.exe' cls='Qt*QWindowIcon' title='企业微信-文档' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="c6a7b206-bf86-4a46-bd76-69b8fe23f355" CvTextArea="1375, 666, 72, 17" CvTextArgument="BĦ (.png)" CvType="Text" DesignTimeRectangle="1357, 653, 273, 37" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='图片 (.png)' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='图片 (.png)' /&gt;" Guid="a6689805-e7db-4d5a-8425-0fd91fe16bb4" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
-            </uix:NClick>
-            <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,113.6" sap2010:WorkflowViewState.IdRef="Delay_2" />
+            <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="416,56.8" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
+            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,122.4" sap2010:WorkflowViewState.IdRef="Delay_3" />
+            <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'wxwork.exe  企业微信'" sap:VirtualizedContainerService.HintSize="416,188" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:ClickImage.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:ClickImage.CursorPosition>
+              <ui:ClickImage.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="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" />
+              </ui:ClickImage.Image>
+              <ui:ClickImage.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="0c95ebef-2170-4c09-a679-046a483f678e">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:ClickImage.Target>
+            </ui:ClickImage>
+            <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'wxwork.exe  企业微信'" sap:VirtualizedContainerService.HintSize="416,180.8" sap2010:WorkflowViewState.IdRef="ClickImage_2" KeyModifiers="None" MouseButton="BTN_LEFT">
+              <ui:ClickImage.CursorPosition>
+                <ui:CursorPosition Position="Center">
+                  <ui:CursorPosition.OffsetX>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetX>
+                  <ui:CursorPosition.OffsetY>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:CursorPosition.OffsetY>
+                </ui:CursorPosition>
+              </ui:ClickImage.CursorPosition>
+              <ui:ClickImage.Image>
+                <ui:ImageTarget Image="{x:Null}" Accuracy="0.8" InitialScalingFactor="1.25" Profile="Basic" TargetImageBase64="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" />
+              </ui:ClickImage.Image>
+              <ui:ClickImage.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="b6279a9a-4c0b-44d9-af53-d4b3764745c8">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                  <ui:Target.WaitForReady>
+                    <InArgument x:TypeArguments="ui:WaitForReady" />
+                  </ui:Target.WaitForReady>
+                </ui:Target>
+              </ui:ClickImage.Target>
+            </ui:ClickImage>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
       <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="0, 0, 1920, 1020" ContentHash="_PC8DX7YRkayhG2pYLr1Kw" FilePath="C:\Program Files (x86)\WXWork\4.1.38.6011\wemail\wemail.exe" IconBase64="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" InformativeScreenshot="0539b19f85557330220471d0506dc3e8.png" Reference="V37UO-nxA0SG182om3oalQ/MO99LtV3xUCPRT_8HQqVnA" Selector="&lt;wnd app='wemail.exe' cls='Qt*QWindowIcon' title='企业微信-文档' /&gt;" Version="V2" />
-      </uix:NApplicationCard.TargetApp>
-    </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="另存为" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="611.2,1091.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_6" ScopeGuid="2a6a8d48-aa05-4331-b362-57db53b7af55" Version="V2">
-      <uix:NApplicationCard.Body>
-        <ActivityAction x:TypeArguments="x:Object">
-          <ActivityAction.Argument>
-            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
-          </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,792" sap2010:WorkflowViewState.IdRef="Sequence_11">
-            <sap:WorkflowViewStateService.ViewState>
-              <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-              </scg:Dictionary>
-            </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into '文件名'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,286.4" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="2a6a8d48-aa05-4331-b362-57db53b7af55" Text="TEXT.xlsx" Version="V4">
-              <uix:NTypeInto.Target>
-                <uix:TargetAnchorable CVScreenId="26bc03a4-4ef7-4f45-8588-083be4a22358" ContentHash="gycLtE92iEGnjXy8u0q2cg" CvElementArea="164, 501, 781, 29" CvType="InputBox" DesignTimeRectangle="169, 506, 752, 22" ElementType="InputBox" FuzzySelectorArgument="&lt;wnd aaname='浏览器窗格' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='文件名:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="4f46bfd0-edc1-456a-ac17-be2b41a19fa3" InformativeScreenshot="5b35195fbd8cf1a4d5d4218cdac840dd.png" IsResponsive="True" Reference="V37UO-nxA0SG182om3oalQ/ZHLASO3zZUGVfLAaBroQTw" ScopeSelectorArgument="&lt;wnd app='wxworkweb.exe' cls='#32770' title='另存为' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="26bc03a4-4ef7-4f45-8588-083be4a22358" CvTextArea="86, 508, 72, 17" CvTextArgument="w#*S(N):" CvType="Text" DesignTimeRectangle="22, 503, 144, 28" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='浏览器窗格' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='浏览器窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='文件夹布局窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='详细信息窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='文件名:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='文件名:' /&gt;" Guid="c045638d-7053-4295-8db6-9d2cbfe78cfb" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NTypeInto.Target>
-              <uix:NTypeInto.VerifyOptions>
-                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionTypeIntoOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionTypeIntoOptions.Retry>
-                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                </uix:VerifyExecutionTypeIntoOptions>
-              </uix:NTypeInto.VerifyOptions>
-            </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Microsoft Excel Workshe…'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225.6" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2a6a8d48-aa05-4331-b362-57db53b7af55" Version="V4">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="f3ef773b-478b-4e21-a42d-e4cde8cd1afb" ContentHash="4lgchhOULUqcEp_8SQ1vgQ" CvTextArea="75, 362, 31, 15" CvTextArgument="SE0" CvType="Text" DesignTimeRectangle="75, 350, 34, 40" FullSelectorArgument="&lt;wnd aaname='浏览器窗格' cls='DirectUIHWND' /&gt;&lt;wnd aaname='控制项宿主' cls='NamespaceTreeControl' title='命名空间树状控制项' /&gt;&lt;wnd ctrlid='100' title='导航窗格' /&gt;&lt;ctrl name='桌面 (已固定)' role='outline item' /&gt;" Guid="12b2593b-6ff4-4a7b-909b-e952c52686b6" InformativeScreenshot="f43f7385fb699cd00949be03527e03a3.png" Reference="V37UO-nxA0SG182om3oalQ/q4m-0zHCP06pv_r1VFjQjw" ScopeSelectorArgument="&lt;wnd app='wxworkweb.exe' cls='#32770' title='另存为' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="f3ef773b-478b-4e21-a42d-e4cde8cd1afb" CvTextArea="20, 8, 70, 17" CvTextArgument="+ B1*" CvType="Text" DesignTimeRectangle="3, 3, 752, 22" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='浏览器窗格' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='保存类型:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='保存类型:' role='combo box' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl role='text' automationid='' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Microsoft Excel Worksheet' /&gt;" Guid="96ed1cdb-9126-494d-9d8d-ba39c25ff25e" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
-            </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '保存(&amp;S)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218.4" sap2010:WorkflowViewState.IdRef="NClick_9" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="2a6a8d48-aa05-4331-b362-57db53b7af55" Version="V4">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="f3ef773b-478b-4e21-a42d-e4cde8cd1afb" ContentHash="XZlVmvxym0W6j4GWHrz3eA" CvElementArea="691, 636, 112, 34" CvTextArea="720, 645, 51, 18" CvTextArgument="{}{R(S)" CvType="Button" DesignTimeRectangle="693, 638, 110, 33" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='保存(&amp;amp;S)' /&gt;" Guid="92f28035-0076-4fa2-be17-af6f4555aaf4" InformativeScreenshot="14199fde7d0d814794b7752db8d480e3.png" Reference="V37UO-nxA0SG182om3oalQ/1J8Qk5ALk02UWcxbs29ZOw" ScopeSelectorArgument="&lt;wnd app='wxworkweb.exe' cls='#32770' title='另存为' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="f3ef773b-478b-4e21-a42d-e4cde8cd1afb" CvElementArea="816, 636, 111, 34" CvTextArea="855, 645, 32, 16" CvTextArgument="EA" CvType="Button" DesignTimeRectangle="818, 638, 110, 33" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='取消' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='取消' /&gt;" Guid="c1d4dab5-555c-4f57-b047-cc9f68c9647b" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
-            </uix:NClick>
-          </Sequence>
-        </ActivityAction>
-      </uix:NApplicationCard.Body>
-      <uix:NApplicationCard.TargetApp>
-        <uix:TargetApp Area="0, 0, 960, 701" ContentHash="el8qnp9Mikmqnad42lH2aw" FilePath="C:\Program Files (x86)\WXWork\4.1.38.6011\updated_web\wxworkweb.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAANeSURBVDhPnZDNT1xVGIfP/1IDM0ARKMMUK8UQA0zduDQpC9tabU1M3Kozt8wXQ9sB6kCTphjbUtvEGtm40EVNbCBuGpIm/YhRWz464wz385x7EQTu/V3zntuxF2jSxsWTM/d93+dZDEuU+L7ElDN35KLjJi46+D8cmXLcxJQzTy02OGnPD0w5IAZDb5iBSQeDxO757tuSM8f6S47bX3LQP+lAvhL7FQk7Epe9/aWDAFuSmBT45Ns1fHqLcAK+2/XeWpM3dFv36h3Wd8FB3wVbMlDi+PXxNv5QXf9l/Km6Pt0OlAT6JsinjgP21oQNyTjHqRs2HmvBcZgXzerz0zcCt95hveM2esdsHC5a+Pgmx6Lu+U80z39C77PfPz/awP3yNv6b06t5Pt2SQ27vmMDhcRusZ8xGT1HgzfMmTn1jYdnw/KVdFH808W6pgruLmwjP6ZYccqlBLXaoaOPQeYE3zhr46LqFp6bn31vZwu2H67j9iNjA6RkN8WwZ/cUKfvltAyum5xN0++GMKV1qUIt1n7PRfY7j4KiBkzMWKpbn3y9v4Z2JMmLpFXRlK4jnqojnaujK/oWeQhk/3Ptb3hEnZ0zpUoNaLH7WRnyUo2vEwAfXLFSF51e55y8sbeLz7018NsvRXVARy6s4fsWUs+SsgYeVLXl74pqJroIhG9RisVGBWIGjM6/j+FUTq7bnh1k2PHQXNHTmVPz04J89e3I684ZsUIsdKAgcGOHoyOk4dsWE5nh+mAeVbXRkViULy9t79uSQSw1qsfa8QHueoz2r4/2vTRhr8MPc+X0TbcM1dGRqWNI9uTdDe3LIlY0RAdaWE2jLcbye0XF02gRfhx9mdmEdrUoVB/M16Gvejh1BDrnUoBZrzQq0Zjn2pw10ZFXcXdyCvQG/zuU7DlpSNQxOaDvmBN2SQy41qMVaMgItGY7mtIlmRUNbuob3LqkYmiZ09BVVNKdWEcupGPrKwNC0hqHLqryhv4IccqlBLRZNC7cpzdE0bKFJMRBNqYgma4h+UUM0uRp8p7QA+pa7avCmVOlIlxpp4bLoGTEXGRaIDHNEFAuRlIFISn+OYiCimAHPdo1JLbSzAlc2rHn2WpLva1Cs+QaFuw0KR6PC0aBYaNxBMJe/U3vn0j0j5qj1L6putJN6w1eWAAAAAElFTkSuQmCC" sap2010:WorkflowViewState.IdRef="TargetApp_2" InformativeScreenshot="b51475e8e34a35a330af38887e4165c0.png" Reference="V37UO-nxA0SG182om3oalQ/KOMy5deBnkqWq3KQCCIzSQ" Selector="&lt;wnd app='wxworkweb.exe' cls='#32770' title='另存为' /&gt;" Version="V2" />
+        <uix:TargetApp Area="-2, -2, 1924, 1024" ContentHash="zPJmJZzNRkusBYm3WcLk7w" FilePath="C:\Program Files (x86)\WXWork\wxwork.exe" IconBase64="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" InformativeScreenshot="0a5f027e0e8e03b48f16c8efb36e648d.png" Reference="V37UO-nxA0SG182om3oalQ/hzJAM7ahukybWPdv8N3PYw" Selector="&lt;wnd app='wxwork.exe' cls='WeWorkWindow' title='企业微信' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
     <Sequence sap:VirtualizedContainerService.HintSize="611.2,2894.4" sap2010:WorkflowViewState.IdRef="Sequence_2">

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "企业微信",
+  "Type": "Screen",
+  "Id": "hzJAM7ahukybWPdv8N3PYw",
+  "Reference": "V37UO-nxA0SG182om3oalQ/hzJAM7ahukybWPdv8N3PYw",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/-MzQ9By4o0Oga5fpDbGg4A",
+  "Created": "2025-07-02T05:53:09.4023694Z",
+  "Updated": "2025-07-02T05:53:09.4023694Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="sNuHCpoVj0W7ZePNvXto-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a3809910-aaf5-4d22-91e4-909b58711fb8" CvTextArea="22, 261, 28, 13" CvTextArgument="KTS" CvType="Text" DesignTimeRectangle="22, 261, 28, 13" ElementType="Text" Guid="be58bca6-4d79-41ba-9020-45adad13c9a5" ScopeSelectorArgument="&lt;wnd app='wxwork.exe' cls='WeWorkWindow' title='企业微信' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="a3809910-aaf5-4d22-91e4-909b58711fb8" CvTextArea="22, 191, 28, 15" CvTextArgument="Bß#*" CvType="Text" DesignTimeRectangle="22, 191, 28, 15" ElementType="Text" Guid="0f5ce84b-80c7-4d5a-95ac-8cbdb26029ad" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="TopLeft" X="12" Y="-8" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="c0a7cf7cf6f0f16dd4f5528e8eeab773.png" xmlns="">0sccgLzB0y0Gw6R1nJE6Aqg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
