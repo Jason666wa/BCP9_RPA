@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="w61I6cFZNk-zklfP4VNjFg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b94ffa97-884b-4c3c-8ca4-564cbddfa597" CvTextArea="51, 432, 51, 14" CvTextArgument="5E9O" CvType="Text" DesignTimeRectangle="51, 429, 52, 22" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tv' /&gt;&lt;wnd ctrlname='pnlTv' /&gt;&lt;wnd ctrlname='MyTree1' /&gt;&lt;ctrl name='质量中心' role='outline item' /&gt;" Guid="ec941895-958a-49e5-ad89-8a0d82326b98" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b94ffa97-884b-4c3c-8ca4-564cbddfa597" CvElementArea="102, 92, 102, 34" CvTextArea="114, 102, 74, 16" CvTextArgument="#A3IłE6" CvType="Button" DesignTimeRectangle="103, 94, 100, 30" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='我的工作台' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='我的工作台' /&gt;" Guid="fc15e593-103e-448a-8237-73cec79e1764" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d7aa56f5d7513d41d377746167d4c50b.png" xmlns="">0rS06Lf4KMkGiHgsWBNgXiw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
