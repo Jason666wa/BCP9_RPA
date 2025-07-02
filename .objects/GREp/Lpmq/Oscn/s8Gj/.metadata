@@ -1,0 +1,13 @@
+﻿{
+  "Name": "出厂编号",
+  "Type": "Element",
+  "Id": "s8GjR58j1UmyZDKehRLvqg",
+  "Reference": "V37UO-nxA0SG182om3oalQ/s8GjR58j1UmyZDKehRLvqg",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/OscnLCV9N0G2D4bu-54XBg",
+  "Created": "2025-07-02T10:06:09.0484378Z",
+  "Updated": "2025-07-02T10:06:09.0484378Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

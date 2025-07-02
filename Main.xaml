@@ -131,6 +131,7 @@
       <x:String>UiPath.CV</x:String>
       <x:String>UiPath.CV.Activities</x:String>
       <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>UiPath.Excel.Activities.Windows.Business</x:String>
     </sco:Collection>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
@@ -262,30 +263,37 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1307,4826" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311,7629" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
+      <Variable x:TypeArguments="x:String" Name="高压对低压及地_KV" />
       <Variable x:TypeArguments="x:String" Name="出厂编号" />
+      <Variable x:TypeArguments="x:String" Name="低压对高压及地_KV" />
+      <Variable x:TypeArguments="x:String" Name="低压第一段对高压低压及地_KV" />
+      <Variable x:TypeArguments="x:String" Name="低压第二段对高压低压及地_KV" />
+      <Variable x:TypeArguments="x:String" Name="低压第三段对高压低压及地_KV" />
+      <Variable x:TypeArguments="x:String" Name="低压小组间_KV" />
+      <Variable x:TypeArguments="x:String" Name="三线圈对高压低压_KV" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="企业微信" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,2086" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" ScopeGuid="fca801b0-7dc5-4baa-9d0a-cca07f1ce7a9" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="企业微信" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,2064" sap2010:WorkflowViewState.IdRef="NApplicationCard_7" ScopeGuid="fca801b0-7dc5-4baa-9d0a-cca07f1ce7a9" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,1747" sap2010:WorkflowViewState.IdRef="Sequence_12">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="468,1761" sap2010:WorkflowViewState.IdRef="Sequence_12">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="434,57" sap2010:WorkflowViewState.IdRef="MaximizeWindow_1" />
-            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,122" sap2010:WorkflowViewState.IdRef="Delay_3" />
-            <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'wxwork.exe  企业微信'" sap:VirtualizedContainerService.HintSize="434,187" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+            <Delay Duration="00:00:01" sap:VirtualizedContainerService.HintSize="434,124" sap2010:WorkflowViewState.IdRef="Delay_3" />
+            <ui:ClickImage ContinueOnError="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click Image 'wxwork.exe  企业微信'" sap:VirtualizedContainerService.HintSize="434,189" sap2010:WorkflowViewState.IdRef="ClickImage_1" KeyModifiers="None" MouseButton="BTN_LEFT">
               <ui:ClickImage.CursorPosition>
                 <ui:CursorPosition Position="Center">
                   <ui:CursorPosition.OffsetX>
@@ -349,6 +357,9 @@
                   </Sequence>
                 </ActivityAction>
               </p:CVScope.Body>
+              <p:CVScope.DesignTimeCache>
+                <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+              </p:CVScope.DesignTimeCache>
               <p:CVScope.DesignTimeCacheContainer>
                 <uc:CvCacheContainer>
                   <uc:CvCacheContainer.Caches>
@@ -407,14 +418,14 @@
                 <InArgument x:TypeArguments="x:Boolean" />
               </p:CVScope.UseLocalServer>
             </p:CVScope>
-            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="97ff09ec-903d-4b84-969e-b83d143b67ea" DisplayName="计算机视觉屏幕作用域 'grouping'" sap:VirtualizedContainerService.HintSize="434,761" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="97ff09ec-903d-4b84-969e-b83d143b67ea" DisplayName="计算机视觉屏幕作用域 'grouping'" sap:VirtualizedContainerService.HintSize="434,771" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
               <p:CVScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
                   </ActivityAction.Argument>
                   <Sequence DisplayName="执行" sap2010:WorkflowViewState.IdRef="Sequence_13">
-                    <p:CvGetTextWithDescriptor DelayScreenshotAfterScroll="{x:Null}" ScrollOffset="{x:Null}" Descriptor="[&quot;Target: AnyWordGroup (484,49,72,13)&quot; +&#xD;&#xA;&quot;Anchor: Text 'QRG/EFIAS' (482,12,105,18)&quot;]" DesignTimeCacheId="97ff09ec-903d-4b84-969e-b83d143b67ea" DesignTimeScaleFactor="1.25" DisplayName="计算机视觉获取文本 - 任何词组" sap:VirtualizedContainerService.HintSize="400,252" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_3" InformativeScreenshot="3f85bfc44be982ee2e5514fdf60b5591" NumberOfScrolls="2" RefreshBefore="True" Result="[出厂编号]" ScrollDirection="None" Version="V6">
+                    <p:CvGetTextWithDescriptor DelayScreenshotAfterScroll="{x:Null}" ScrollOffset="{x:Null}" Descriptor="[&quot;Target: AnyWordGroup (484,49,72,13)&quot; +&#xA;&quot;Anchor: Text 'QRG/EFIAS' (482,12,105,18)&quot;]" DesignTimeCacheId="97ff09ec-903d-4b84-969e-b83d143b67ea" DesignTimeScaleFactor="1.25" DisplayName="计算机视觉获取文本 - 任何词组" sap:VirtualizedContainerService.HintSize="400,258" sap2010:WorkflowViewState.IdRef="CvGetTextWithDescriptor_3" InformativeScreenshot="3f85bfc44be982ee2e5514fdf60b5591" NumberOfScrolls="2" RefreshBefore="True" Result="[出厂编号]" ScrollDirection="None" Version="V6">
                       <p:CvGetTextWithDescriptor.DesignTimeDescriptor>
                         <uc:CvDescriptor Id="5117c268-fcd9-479d-93ed-c6a91b757b01">
                           <uc:CvDescriptor.Anchors>
@@ -428,15 +439,18 @@
                         </uc:CvDescriptor>
                       </p:CvGetTextWithDescriptor.DesignTimeDescriptor>
                     </p:CvGetTextWithDescriptor>
-                    <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="400,166" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[出厂编号+“已识别”]" />
+                    <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="400,170" sap2010:WorkflowViewState.IdRef="LogMessage_2" Level="Info" Message="[出厂编号+“已识别”]" />
                   </Sequence>
                 </ActivityAction>
               </p:CVScope.Body>
+              <p:CVScope.DesignTimeCache>
+                <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+              </p:CVScope.DesignTimeCache>
               <p:CVScope.DesignTimeCacheContainer>
                 <uc:CvCacheContainer>
                   <uc:CvCacheContainer.Caches>
-                    <scg:List x:TypeArguments="uc:CVCache" Capacity="2">
-                      <uc:CVCache DataSent="False" DisplayName="屏幕 计算机视觉获取文本 - '' (主要)" Id="97ff09ec-903d-4b84-969e-b83d143b67ea" InformativeScreenshot="88b638ed5065411399853c48cdbd39f6" LogicalPosition="794, 245" OcrText="+ وRS© 2G1A5A CFEI DH5eJJ QRG/EFIAS &#xD;&#xA; رnTRSA 1 1Bt RESB 2025-07-02 13:10 N25030081 &#xD;&#xA; sex 1" Position="794, 245" ScaleFactor="1.25" ScreenshotGuid="f9b354ad-52f1-4047-9b48-f74996dfacf6" ServerVersion="24.10.5.1">
+                    <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                      <uc:CVCache DataSent="False" DisplayName="屏幕 计算机视觉获取文本 - '' (主要)" Id="97ff09ec-903d-4b84-969e-b83d143b67ea" InformativeScreenshot="88b638ed5065411399853c48cdbd39f6" LogicalPosition="794, 245" OcrText="+ وRS© 2G1A5A CFEI DH5eJJ QRG/EFIAS &#xA; رnTRSA 1 1Bt RESB 2025-07-02 13:10 N25030081 &#xA; sex 1" Position="794, 245" ScaleFactor="1.25" ScreenshotGuid="f9b354ad-52f1-4047-9b48-f74996dfacf6" ServerVersion="24.10.5.1">
                         <uc:CVCache.CvAnchorRelations>
                           <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="4">
                             <uc:AnchorRelationInfo IsTargetText="True" Target="14">
@@ -559,20 +573,23 @@
         <uix:TargetApp Area="-2, -2, 1924, 1024" ContentHash="zPJmJZzNRkusBYm3WcLk7w" FilePath="C:\Program Files (x86)\WXWork\wxwork.exe" IconBase64="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" sap2010:WorkflowViewState.IdRef="TargetApp_1" InformativeScreenshot="0a5f027e0e8e03b48f16c8efb36e648d.png" Reference="V37UO-nxA0SG182om3oalQ/hzJAM7ahukybWPdv8N3PYw" Selector="&lt;wnd app='wxwork.exe' cls='WeWorkWindow' title='企业微信' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <Sequence sap:VirtualizedContainerService.HintSize="518,2717" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="518,5542" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <Sequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="BCP9" />
+      </Sequence.Variables>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1881" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="59b4eef8-97b4-418f-9f4a-2ab5978d7793">
+      <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1913" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="59b4eef8-97b4-418f-9f4a-2ab5978d7793">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1582" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1610" sap2010:WorkflowViewState.IdRef="Sequence_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -580,12 +597,12 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
               <ui:MaximizeWindow Window="{x:Null}" DisplayName="Maximize Window" sap:VirtualizedContainerService.HintSize="416,57" sap2010:WorkflowViewState.IdRef="MaximizeWindow_2" />
-              <Delay DisplayName="延迟" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_4" />
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '我的工作台'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
+              <Delay DisplayName="延迟" Duration="00:00:01" sap:VirtualizedContainerService.HintSize="416,124" sap2010:WorkflowViewState.IdRef="Delay_4" />
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '我的工作台'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_8" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable CVScreenId="ce9dffb4-5417-468e-bd9d-43dd649fc376" ContentHash="hnILCqF6h0uSyUJTBU7JAQ" CvTextArea="115, 102, 73, 15" CvTextArgument="#XAOIIES" CvType="Text" DesignTimeRectangle="103, 94, 100, 30" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;ctrl name='我的工作台' role='page tab' /&gt;" Guid="88bd453b-45de-474d-bc4e-d851a2d442ac" InformativeScreenshot="5bc63ff05b1be9fd3b6ff10e839e3fc8.png" Reference="V37UO-nxA0SG182om3oalQ/4eBJIHvbzE2rVoFWqqfFrw" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="ce9dffb4-5417-468e-bd9d-43dd649fc376" CvElementArea="4, 93, 102, 34" CvTextArea="39, 103, 29, 14" CvTextArgument="ÈMA" CvType="Button" DesignTimeRectangle="3, 94, 100, 30" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='首页' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='首页' /&gt;" Guid="6d0e3036-0874-4ace-8f95-98e162633649" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -602,11 +619,11 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="双击 '质量中心'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="双击 '质量中心'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_9" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable CVScreenId="b94ffa97-884b-4c3c-8ca4-564cbddfa597" ContentHash="w61I6cFZNk-zklfP4VNjFg" CvTextArea="51, 432, 51, 14" CvTextArgument="5E9O" CvType="Text" DesignTimeRectangle="51, 429, 52, 22" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tv' /&gt;&lt;wnd ctrlname='pnlTv' /&gt;&lt;wnd ctrlname='MyTree1' /&gt;&lt;ctrl name='质量中心' role='outline item' /&gt;" Guid="ec941895-958a-49e5-ad89-8a0d82326b98" InformativeScreenshot="d7aa56f5d7513d41d377746167d4c50b.png" Reference="V37UO-nxA0SG182om3oalQ/jCmVnzF4fkCXVbwy5_OZEQ" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="b94ffa97-884b-4c3c-8ca4-564cbddfa597" CvElementArea="102, 92, 102, 34" CvTextArea="114, 102, 74, 16" CvTextArgument="#A3IłE6" CvType="Button" DesignTimeRectangle="103, 94, 100, 30" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='我的工作台' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='我的工作台' /&gt;" Guid="fc15e593-103e-448a-8237-73cec79e1764" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -623,11 +640,11 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="双击‘试验站’" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="双击‘试验站’" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_11" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable ContentHash="efj5JEYMvEuozcP-YfJG8A" DesignTimeRectangle="90, 646, 50, 27" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tv' /&gt;&lt;wnd ctrlname='pnlTv' /&gt;&lt;wnd ctrlname='MyTree1' /&gt;&lt;ctrl name='试验站' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='pnlTv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='MyTree1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='试验站' role='outline item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='试验站' /&gt;" Guid="1e87923f-4036-4e4d-9157-1a83074b7d16" InformativeScreenshot="844c50d1041628959ad2151eff93e922.png" Reference="V37UO-nxA0SG182om3oalQ/XZGVZFi4VESvjr8Ot09Z1Q" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target CVScreenId="faa5ac2e-1fbc-4a20-9861-5b8eaaa232e5" CvTextArea="63, 540, 63, 17" CvTextArgument="BAPO" CvType="Text" DesignTimeRectangle="63, 536, 65, 27" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='pnlTv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='MyTree1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='质量中心' role='outline item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='质量中心' /&gt;" Guid="b79c912c-9073-4c08-a3e5-947e2e75d023" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -644,11 +661,11 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="双击 '业务单据'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="双击 '业务单据'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_12" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable ContentHash="z3jdjCwfrkezQAeXLd6p0Q" DesignTimeRectangle="116, 673, 65, 28" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='pnlTv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='MyTree1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl automationid='' name='业务单据' role='outline item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='业务单据' /&gt;" Guid="f991d0e7-416d-43f0-961c-9b4c22d73970" InformativeScreenshot="a73e2608ac870e6dfb1051d8c72faa22.png" Reference="V37UO-nxA0SG182om3oalQ/8VZhTBl_OEitCzINjjOeLA" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target DesignTimeRectangle="90, 646, 50, 27" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='pnlTv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='MyTree1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='试验站' role='outline item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='试验站' /&gt;" Guid="9b51bf50-80f6-492c-a8c8-6434fb3c3998" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -665,11 +682,11 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 'BCP9-绝缘电阻测量和工频耐压试验'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 'BCP9-绝缘电阻测量和工频耐压试验'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_13" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable CVScreenId="fa72b489-5a0c-49fc-b6b5-3374dc6a0ece" ContentHash="pMZI6hhEfEi_cy-B5K9T_Q" CvTextArea="143, 760, 202, 17" CvTextArgument="BCP9-IBUBBRANTkNME" CvType="Text" DesignTimeRectangle="142, 756, 244, 27" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tv' /&gt;&lt;wnd ctrlname='pnlTv' /&gt;&lt;wnd ctrlname='MyTree1' /&gt;&lt;ctrl name='BCP9-绝缘电阻测量和工频耐压试验' role='outline item' /&gt;" Guid="82cc4093-2190-4fec-b693-a4722e7b9cf0" InformativeScreenshot="52a993d0e970c35ecf0e01b437d6527f.png" Reference="V37UO-nxA0SG182om3oalQ/hl_63bEgJ0KmFgWx3uL7kw" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                     <uix:TargetAnchorable.Anchors>
-                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                         <uix:Target DesignTimeRectangle="116, 508, 65, 28" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='pnlTv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='MyTree1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl automationid='' name='业务单据' role='outline item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='业务单据' /&gt;" Guid="1cf97b38-55a9-40ff-bb4d-c8d01688b7f2" SearchSteps="FuzzySelector" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
@@ -686,7 +703,7 @@
                   </uix:VerifyExecutionOptions>
                 </uix:NClick.VerifyOptions>
               </uix:NClick>
-              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '新建'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '新建'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="59b4eef8-97b4-418f-9f4a-2ab5978d7793" Version="V4">
                 <uix:NClick.Target>
                   <uix:TargetAnchorable ContentHash="rxxfkT-3PUq_cZJGnT47Rw" DesignTimeRectangle="665, 196, 65, 34" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tbGrd' /&gt;&lt;ctrl name='新建' role='push button' /&gt;" Guid="dc49b275-3f1c-47d0-8cc6-ff1baa41bf45" InformativeScreenshot="c016b43c3e5cc78ab320b877754cbd5b.png" Reference="V37UO-nxA0SG182om3oalQ/AiY5u_D9mECrAJyINaz0Hw" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
                 </uix:NClick.Target>
@@ -714,45 +731,140 @@
           </scg:Dictionary>
         </sap:WorkflowViewStateService.ViewState>
       </uix:NApplicationCard>
-      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="Delay_1" />
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="FillBCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,631" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="8be4ded1-1794-43f8-b0cb-c1ca3c20aa3e" Version="V2">
+      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="484,124" sap2010:WorkflowViewState.IdRef="Delay_1" />
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,3422" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" ScopeGuid="e8a44be6-a225-4e52-8d33-40784f94d172" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,341" sap2010:WorkflowViewState.IdRef="Sequence_8">
+            <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,3128" sap2010:WorkflowViewState.IdRef="Sequence_16">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into '出厂编号'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,279" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="8be4ded1-1794-43f8-b0cb-c1ca3c20aa3e" Text="[出厂编号]" Version="V4">
+              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 '出厂编号'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="NTypeInto_4" ScopeIdentifier="e8a44be6-a225-4e52-8d33-40784f94d172" Text="[出厂编号]" Version="V4">
                 <uix:NTypeInto.Target>
-                  <uix:TargetAnchorable ContentHash="x6ksuTBscUmyb-Tk1tbiLQ" DesignTimeRectangle="43, 369, 112, 36" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='A3' cls='XLSpreadsheetCell' name='A3' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='A3' /&gt;" Guid="d814146d-7f09-4e91-ab11-7d2a4c3af2fa" InformativeScreenshot="6ea6bba2879c188ec399278a8795d368.png" Reference="V37UO-nxA0SG182om3oalQ/BaD6JN_xiUiVGp4Ox9nQyQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='Fill:BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable ContentHash="F6z7F2P0K0-1r7stZysYpA" DesignTimeRectangle="43, 372, 112, 36" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='A3' cls='XLSpreadsheetCell' name='A3' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='A3' /&gt;" Guid="fc991536-2042-4be5-88da-c60a99bf1211" InformativeScreenshot="f582658d3547e3b22f5aa770a7a70bd6.png" Reference="V37UO-nxA0SG182om3oalQ/s8GjR58j1UmyZDKehRLvqg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                     <uix:TargetAnchorable.Anchors>
                       <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                        <uix:Target CVScreenId="caff5b7f-5fd0-45d9-a447-fe2280a6cbc6" CvTextArea="67, 344, 21, 13" CvTextArgument="HHJ" CvType="Text" DesignTimeRectangle="43, 336, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='Grid' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='A2' cls='XLSpreadsheetCell' name='A2' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='出厂编号' /&gt;" Guid="9c02b323-b25d-4546-905c-d08692309d19" SearchSteps="FuzzySelector, CV" />
+                        <uix:Target CVScreenId="155d2d32-7df3-4961-a85c-2fe00bfd0401" CvTextArea="67, 345, 61, 17" CvTextArgument="HH/ IC" CvType="Text" DesignTimeRectangle="43, 339, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='A2' cls='XLSpreadsheetCell' name='A2' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='出厂编号' /&gt;" Guid="4804b14d-a78b-4196-ae39-6c41264ca188" SearchSteps="FuzzySelector, CV" />
                       </scg:List>
                     </uix:TargetAnchorable.Anchors>
                   </uix:TargetAnchorable>
                 </uix:NTypeInto.Target>
-                <uix:NTypeInto.VerifyOptions>
-                  <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                    <uix:VerifyExecutionTypeIntoOptions.Retry>
-                      <InArgument x:TypeArguments="x:Boolean" />
-                    </uix:VerifyExecutionTypeIntoOptions.Retry>
-                    <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                      <InArgument x:TypeArguments="x:Double" />
-                    </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                  </uix:VerifyExecutionTypeIntoOptions>
-                </uix:NTypeInto.VerifyOptions>
               </uix:NTypeInto>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 'I'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_15" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="e8a44be6-a225-4e52-8d33-40784f94d172" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable ContentHash="K8Cs_3ES_kq1dh4sLWztnQ" DesignTimeRectangle="939, 339, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='I2' cls='XLSpreadsheetCell' name='I2' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='I2' /&gt;" Guid="31bbbed0-be50-4054-bec3-a024a340ed23" InformativeScreenshot="afee4f52764fb6e554556843e99c206f.png" Reference="V37UO-nxA0SG182om3oalQ/e3B62Hk96EGBFDcSVIXMdw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="5f71cb88-793c-4603-87d3-e41f00905ee4" CvTextArea="989, 286, 10, 15" CvTextArgument="I" CvType="Text" DesignTimeRectangle="939, 282, 112, 24" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='XLGridColumnHeader' name='I' role='列标题' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='I' /&gt;" Guid="ffb96c1e-1084-45bf-bbd0-e433ac8d24d7" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NGetText DisplayName="获取文本 '高压对低压及地(KV)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="e8a44be6-a225-4e52-8d33-40784f94d172" TextString="[高压对低压及地_KV]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable CVScreenId="36591141-ceed-47a7-a17c-0ec1277f7590" ContentHash="QUInVfC_tUSsI3Bq1YbiMg" CvType="AnyWordGroup" DesignTimeRectangle="155, 618, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='B10' cls='XLSpreadsheetCell' name='B10' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="cd8de6c3-ecf4-46d2-94c9-edad28f981a3" InformativeScreenshot="6fcdd5c72323a66a41091566724d6ab0.png" Reference="V37UO-nxA0SG182om3oalQ/tsJgbxsWuUavSGImQBPsxw" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="155, 574, 112, 44" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='B9' cls='XLSpreadsheetCell' name='B9' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='高压对低压及地(KV)' /&gt;" Guid="317a690b-b400-457a-a309-1b8d435d8b8f" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[高压对低压及地_KV+“已识别”]" />
+              <uix:NGetText DisplayName="获取文本 '低压对高压及地(KV)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="e8a44be6-a225-4e52-8d33-40784f94d172" TextString="[低压对高压及地_KV]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable CVScreenId="36591141-ceed-47a7-a17c-0ec1277f7590" ContentHash="IxwYYOl-hUOmAdetKI3vnQ" CvType="AnyWordGroup" DesignTimeRectangle="267, 618, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='C10' cls='XLSpreadsheetCell' name='C10' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="1603c80d-9b7e-42e2-be22-2986da3ed835" InformativeScreenshot="ab30d7f6784d31551cb8f898ce8d35a8.png" Reference="V37UO-nxA0SG182om3oalQ/0yDUIEgj_k2IjC2NwnlpAQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="267, 574, 112, 44" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='C9' cls='XLSpreadsheetCell' name='C9' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='低压对高压及地(KV)' /&gt;" Guid="25da81d6-560a-4bc6-926b-63f51559de3f" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[低压对高压及地_KV+“已识别”]" />
+              <uix:NGetText DisplayName="获取文本 '低压第一段对高压低压及地(KV)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="NGetText_4" ScopeIdentifier="e8a44be6-a225-4e52-8d33-40784f94d172" TextString="[低压第一段对高压低压及地_KV]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable CVScreenId="36591141-ceed-47a7-a17c-0ec1277f7590" ContentHash="qVcKBkJjnEWDQI38YUarUw" CvType="AnyWordGroup" DesignTimeRectangle="379, 618, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='D10' cls='XLSpreadsheetCell' name='D10' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="659936a1-e33d-411b-bb7e-c2df2a75a81b" InformativeScreenshot="1e2829acca691a97aa8748da25053d7f.png" Reference="V37UO-nxA0SG182om3oalQ/wWDSb30RUUqtKIJxFlV29w" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="379, 574, 112, 44" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='D9' cls='XLSpreadsheetCell' name='D9' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='低压第一段对高压低压及地(KV)' /&gt;" Guid="dfcc2042-2fe0-4de4-943b-45cea524c57b" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[低压第一段对高压低压及地_KV+“已识别”]" />
+              <uix:NGetText DisplayName="获取文本 '低压第二段对高压低压及地(KV)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="NGetText_5" ScopeIdentifier="e8a44be6-a225-4e52-8d33-40784f94d172" TextString="[低压第二段对高压低压及地_KV]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable CVScreenId="8bb8801e-5f10-4fa4-a83a-ecfded4e2e10" ContentHash="nk04TBos-U2w_OH3evbKxw" CvType="AnyWordGroup" DesignTimeRectangle="491, 618, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='E10' cls='XLSpreadsheetCell' name='E10' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="0b785a01-5916-426e-9209-b876035e4fbf" InformativeScreenshot="6082784879841f6d925e519f71c93bf5.png" Reference="V37UO-nxA0SG182om3oalQ/NcyLLwWin0CLL95maR0C9w" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="491, 574, 112, 44" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='E9' cls='XLSpreadsheetCell' name='E9' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='低压第二段对高压低压及地(KV)' /&gt;" Guid="ae19f427-2c72-441c-9a72-4fc5b95d5eef" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[低压第二段对高压低压及地_KV+“已识别”]" />
+              <uix:NGetText DisplayName="获取文本 '低压第三段对高压低压及地(KV)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="NGetText_6" ScopeIdentifier="e8a44be6-a225-4e52-8d33-40784f94d172" TextString="[低压第三段对高压低压及地_KV]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable CVScreenId="f1cef153-ecee-4045-be90-d6692fa8e06e" ContentHash="8XvHCziGFEqn0Cd4zRT18g" CvType="AnyWordGroup" DesignTimeRectangle="603, 618, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='F10' cls='XLSpreadsheetCell' name='F10' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="842f1a73-399f-41f6-9a4a-5e81b8d288e6" InformativeScreenshot="d9a23a1ee084d59660b282bd191e3e69.png" Reference="V37UO-nxA0SG182om3oalQ/dxO885TkskWKRduRh-Reag" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="603, 574, 112, 44" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='F9' cls='XLSpreadsheetCell' name='F9' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='低压第三段对高压低压及地(KV)' /&gt;" Guid="2bbb9150-2826-4788-822a-8ed1b087a4db" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[低压第三段对高压低压及地_KV+“已识别”]" />
+              <uix:NGetText DisplayName="获取文本 '低压小组间(KV)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="NGetText_7" ScopeIdentifier="e8a44be6-a225-4e52-8d33-40784f94d172" TextString="[低压小组间_KV]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable CVScreenId="8a2320ea-3eb7-4ad2-bb02-774011899fae" ContentHash="dnadodaQIUGtcP3uFmNTVg" CvType="AnyWordGroup" DesignTimeRectangle="715, 618, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='G10' cls='XLSpreadsheetCell' name='G10' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="aa46ed65-413d-40a0-8c2b-be97e74cf545" InformativeScreenshot="fc0fdafc70f2e1c5403227eaf6b08f72.png" Reference="V37UO-nxA0SG182om3oalQ/KyVAVc_OUU-KLs4KnYos8Q" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target CVScreenId="8a2320ea-3eb7-4ad2-bb02-774011899fae" CvTextArea="716, 586, 107, 17" CvTextArgument="E/NE/@(KV)" CvType="Text" DesignTimeRectangle="715, 574, 112, 44" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='G9' cls='XLSpreadsheetCell' name='G9' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='低压小组间(KV)' /&gt;" Guid="d5fd33ba-e721-492d-933c-1e3d9c220149" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[低压小组间_KV+“已识别”]" />
+              <uix:NGetText DisplayName="获取文本 '三线圈对高压低压(KV)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,191" sap2010:WorkflowViewState.IdRef="NGetText_8" ScopeIdentifier="e8a44be6-a225-4e52-8d33-40784f94d172" TextString="[三线圈对高压低压_KV]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable CVScreenId="c0e42db0-fcc1-4d66-92d1-1f76fcd51bb9" ContentHash="3BSfA6A4U0eIgJUvRSBJRA" CvType="AnyWordGroup" DesignTimeRectangle="827, 618, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='H10' cls='XLSpreadsheetCell' name='H10' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;" Guid="63189539-496c-420c-acb9-db01762e8db8" InformativeScreenshot="cf9d474b82caeb23d12415aefa70c2c5.png" Reference="V37UO-nxA0SG182om3oalQ/id4uFxEQG0idfJ46-D-_5g" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                        <uix:Target DesignTimeRectangle="827, 574, 112, 44" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='H9' cls='XLSpreadsheetCell' name='H9' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='三线圈对高压低压(KV)' /&gt;" Guid="66997ecc-fa61-4e47-9382-33d532b9f28a" SearchSteps="FuzzySelector" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,172" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[三线圈对高压低压_KV+“已识别”]" />
             </Sequence>
           </ActivityAction>
         </uix:NApplicationCard.Body>
         <uix:NApplicationCard.TargetApp>
-          <uix:TargetApp Area="-9, -9, 1938, 1038" ContentHash="qorv61BxpEmTn80vugU-dg" FilePath="C:\Program Files\Microsoft Office\root\Office16\excel.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAQiSURBVFhH7dhLTFxVGAfwU6PGhpl7Zy7MHXDRFlzY1IYWhhlKYQoUCnXAaaEQW18bxfKqtrRlgL5meA2wcaFtTVNrizZqY4JGY+urprFx5aKyVBNlobiyJi5c/s05d+65M4c7dAZPZ0H8kn/CzOTm++U7534LCFkltYYQ8kCOk3GtKZ7t+rj4nZexkvhux1aWb6MfiZB0tVZsmk2WNM4ihJAHRYxdqWLTbCI2zSaEEIeIsSuX2DSbiE2zCSFEEzF29T8wXVYPcMNbL2LZXDJSfKULxbOSgUUzbXNF020omt6Lwqk9RuJheGkmn2LRJ1qNjLfAMx6CZ4zmSRSM0uxGQawZ+bFmeKfCBnS2SyKQwRK4eFjA3QM2asDyo03Ij+6CdmYX1CPVcA3XwnWynkU88mzCgPZTS8AmWlJwBQyXBItRWBODaWca4T7dCPVwNdTBHXCdqJMEzPg4KWx3AmZMLRnmPt0A96mdUPqroB6tgWtEEtAbXwp74doYZm5dxcytd1F3oS/lno3cOI/pb2Yxcv1cAmfAXDQn66H0VkIdkAkU79l4CPUX+mHW7V9/4BN7/v0o/374s7Nwn0rg6H07QVMHZ49kYLp79t6dLzgmfPkYO86Fu38Y6F/uJGAmrg7qCE2tfKDt2xlrRsl0O/76528O6pub4eDg2S4OoxAKU4droQ7tgLM7IBlos8/MF4DeM7NM7LnvPjRgbGoWjCUSlA9cfm00YH7xZ45cuLuI9WOt/Dg5LhKEMhiEcrwGzoOSgfYw6+2kqOQprhttSYGpFDZYw3DKsWpoHVuhd5Sj8JkACp+r5At7JTGAHGZNzVwbUzcvc5h5xFe/vw41Yk7NgilHt7NoHVvkAu1g9MfgGy/xycW/ehtDn7zOP4fePGTBEjjnQBWcR6qg7ZMMZDATl7Q25n//iWEW/lzEumiITYz+TWv+tx+tqQ1sZzDn4W0s8oE2+2zoU2taPdcm+T3r/mCCfz/5+UU+NYZ7tRLOVwLygSYseW3Q44x/eYkl9Z5VM9jkjYuIzL2WAnMcCsDR74fWXioZmLzPhq19Zq4Nu3tmwSrhZDAD5+irkA9Mt8+U4xZMvGfi1CjM0VsBR48P7rZS6J0ygWn2GYctmZoNrNeHvJ5y5HWXQWt5QjIwEpwT71m64+QwjvPBwWDlyDtYBsf+zcgPbYbe6ePA/xIGzKBcin89ls8GqFUlcO98HJ7wFnifrkDhszkEag0bsWwaN0Jr2oSC1lLo+8rhPeBf0mwlyRjo2bMVabM3kfYy6B0+ePf7pUyPJmMgbXrPHPDDS++dJBxNxkDxwVxl1QBV8cFcJVPgWr3Td1N8+H5H7/R9TQhRRIxdPUQIKSGEBAgh23IU2usxQsjDIsau6H/4HyGEeAghRYSQR+9zaA+dnhzt/S8bdOXkP86XLAAAAABJRU5ErkJggg==" sap2010:WorkflowViewState.IdRef="TargetApp_3" InformativeScreenshot="bf044019883c55f49a48c5a08c2ef882.png" Reference="V37UO-nxA0SG182om3oalQ/bLjCHfe5MUKVRPscE0L1jQ" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='Fill:BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" Version="V2" />
+          <uix:TargetApp Area="-9, -9, 1938, 1038" ContentHash="J-0WwKnjskCwoQEyzh3T8g" FilePath="C:\Program Files\Microsoft Office\root\Office16\excel.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAQiSURBVFhH7dhLTFxVGAfwU6PGhpl7Zy7MHXDRFlzY1IYWhhlKYQoUCnXAaaEQW18bxfKqtrRlgL5meA2wcaFtTVNrizZqY4JGY+urprFx5aKyVBNlobiyJi5c/s05d+65M4c7dAZPZ0H8kn/CzOTm++U7534LCFkltYYQ8kCOk3GtKZ7t+rj4nZexkvhux1aWb6MfiZB0tVZsmk2WNM4ihJAHRYxdqWLTbCI2zSaEEIeIsSuX2DSbiE2zCSFEEzF29T8wXVYPcMNbL2LZXDJSfKULxbOSgUUzbXNF020omt6Lwqk9RuJheGkmn2LRJ1qNjLfAMx6CZ4zmSRSM0uxGQawZ+bFmeKfCBnS2SyKQwRK4eFjA3QM2asDyo03Ij+6CdmYX1CPVcA3XwnWynkU88mzCgPZTS8AmWlJwBQyXBItRWBODaWca4T7dCPVwNdTBHXCdqJMEzPg4KWx3AmZMLRnmPt0A96mdUPqroB6tgWtEEtAbXwp74doYZm5dxcytd1F3oS/lno3cOI/pb2Yxcv1cAmfAXDQn66H0VkIdkAkU79l4CPUX+mHW7V9/4BN7/v0o/374s7Nwn0rg6H07QVMHZ49kYLp79t6dLzgmfPkYO86Fu38Y6F/uJGAmrg7qCE2tfKDt2xlrRsl0O/76528O6pub4eDg2S4OoxAKU4droQ7tgLM7IBlos8/MF4DeM7NM7LnvPjRgbGoWjCUSlA9cfm00YH7xZ45cuLuI9WOt/Dg5LhKEMhiEcrwGzoOSgfYw6+2kqOQprhttSYGpFDZYw3DKsWpoHVuhd5Sj8JkACp+r5At7JTGAHGZNzVwbUzcvc5h5xFe/vw41Yk7NgilHt7NoHVvkAu1g9MfgGy/xycW/ehtDn7zOP4fePGTBEjjnQBWcR6qg7ZMMZDATl7Q25n//iWEW/lzEumiITYz+TWv+tx+tqQ1sZzDn4W0s8oE2+2zoU2taPdcm+T3r/mCCfz/5+UU+NYZ7tRLOVwLygSYseW3Q44x/eYkl9Z5VM9jkjYuIzL2WAnMcCsDR74fWXioZmLzPhq19Zq4Nu3tmwSrhZDAD5+irkA9Mt8+U4xZMvGfi1CjM0VsBR48P7rZS6J0ygWn2GYctmZoNrNeHvJ5y5HWXQWt5QjIwEpwT71m64+QwjvPBwWDlyDtYBsf+zcgPbYbe6ePA/xIGzKBcin89ls8GqFUlcO98HJ7wFnifrkDhszkEag0bsWwaN0Jr2oSC1lLo+8rhPeBf0mwlyRjo2bMVabM3kfYy6B0+ePf7pUyPJmMgbXrPHPDDS++dJBxNxkDxwVxl1QBV8cFcJVPgWr3Td1N8+H5H7/R9TQhRRIxdPUQIKSGEBAgh23IU2usxQsjDIsau6H/4HyGEeAghRYSQR+9zaA+dnhzt/S8bdOXkP86XLAAAAABJRU5ErkJggg==" sap2010:WorkflowViewState.IdRef="TargetApp_4" InformativeScreenshot="23acabcd5692787c7d3b0db886621296.png" Reference="V37UO-nxA0SG182om3oalQ/OscnLCV9N0G2D4bu-54XBg" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" Version="V2" />
         </uix:NApplicationCard.TargetApp>
       </uix:NApplicationCard>
     </Sequence>
