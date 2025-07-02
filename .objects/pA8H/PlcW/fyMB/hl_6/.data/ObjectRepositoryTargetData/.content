@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="pMZI6hhEfEi_cy-B5K9T_Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="fa72b489-5a0c-49fc-b6b5-3374dc6a0ece" CvTextArea="143, 760, 202, 17" CvTextArgument="BCP9-IBUBBRANTkNME" CvType="Text" DesignTimeRectangle="142, 756, 244, 27" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tv' /&gt;&lt;wnd ctrlname='pnlTv' /&gt;&lt;wnd ctrlname='MyTree1' /&gt;&lt;ctrl name='BCP9-绝缘电阻测量和工频耐压试验' role='outline item' /&gt;" Guid="82cc4093-2190-4fec-b693-a4722e7b9cf0" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="116, 508, 65, 28" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='pnlTv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='MyTree1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl automationid='' name='业务单据' role='outline item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='业务单据' /&gt;" Guid="1cf97b38-55a9-40ff-bb4d-c8d01688b7f2" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="52a993d0e970c35ecf0e01b437d6527f.png" xmlns="">0plN72OpPtUOkE_5drBUNlA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
