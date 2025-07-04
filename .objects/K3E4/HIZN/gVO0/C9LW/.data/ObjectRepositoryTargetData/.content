@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="W9xylsPuCEuMtYxYDMjWdg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="JDFOflxFC06zPe49O-tlyg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
-    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="ebed25b7-1660-4129-a947-688af785c95a" CvElementArea="557, 401, 229, 43" CvType="InputBox" DesignTimeRectangle="557, 401, 229, 43" ElementType="InputBox" Guid="e22386a0-fd49-4b10-8718-4c8f505ea122" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="0e69dc25-3bdb-4975-9916-d1e457690b67" CvElementArea="558, 401, 229, 42" CvType="InputBox" DesignTimeRectangle="558, 401, 229, 42" ElementType="InputBox" Guid="7cefaa1d-438d-47ac-9171-71421b72cd27" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
       <TargetAnchorable.Anchors>
         <scg:List x:TypeArguments="ITarget" Capacity="4">
-          <Target CVScreenId="ebed25b7-1660-4129-a947-688af785c95a" CvTextArea="559, 376, 108, 22" CvTextArgument="ìĦ¿/E(kV)" CvType="Text" DesignTimeRectangle="559, 376, 108, 22" ElementType="Text" Guid="6a5f1497-13dc-4ed2-a735-2b8a6b7fdc43" SearchSteps="CV" TargetType="ComputerVisionBased" />
+          <Target CVScreenId="0e69dc25-3bdb-4975-9916-d1e457690b67" CvElementArea="559, 316, 233, 47" CvType="Button" DesignTimeRectangle="559, 316, 233, 47" ElementType="Button" Guid="d79cdd67-ede5-4d02-9626-7c2f0e44d2ba" SearchSteps="CV" TargetType="ComputerVisionBased" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="e6a3e15559c70edf2fc7b0fdc0a36e96.png" xmlns="">0l2LULiLQq0S9ozvstQ3W-g</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="ee8e4e28d6b03f47dc6c7c0f569dce49.png" xmlns="">0XbkbAgpFPEuH2nXB7A3q2g</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>
