@@ -1,0 +1,14 @@
+﻿{
+  "Name": "SYBS-100 L$nf9REt",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "5I_wSNPefkKjDp0pQuRsag",
+  "Reference": "V37UO-nxA0SG182om3oalQ/5I_wSNPefkKjDp0pQuRsag",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/gVO0PK2F6UWsnV2WWbs7-Q",
+  "Created": "2025-07-04T05:30:33.8250237Z",
+  "Updated": "2025-07-04T05:30:33.8250237Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

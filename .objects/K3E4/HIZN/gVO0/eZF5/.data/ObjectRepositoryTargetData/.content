@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RYm9-X6Do0uyQAwOZyucgA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="1148, 148, 179, 28" Guid="9b6912fe-abb7-4bb9-868e-2556d2350316" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAALMAAAAcCAYAAAAqXo7IAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAMQSURBVHhe7Zk7koMwDIY5FNfhMhyGs1DkIDSZSZGZFFt4h4ef+iUbWEjCqvi2wEaW4bNis9XtdjOKcgWq8c8wDIry9ajMymVQmZXLoDIrl0FlVi7De2TuW/NTVebVgTaJrjGm6ej1hXtbG1PV5tnTNkhBHlPMujV30KZ8FkDm3jzryphqD415gMEsjybfB3Hvmkm+n7YnbcPQmdc4tiA7oURmcUzlkwAyFzBWyIwEE4ssVPaVhIIGY8+VGPRnSap2KvOqfMNYy0JCwMW19F9Z8eF8V8a4MsfKDNhalUmMSJLl1wSKI5DKbBnnByWZxyH9JZkn0vmulHl53jxp/P/JuTIv8tCf7FkSer2QVMopP37vDCtclBdeHHYhPvs0T07OYMsWxeL6A0KRUf+pXWUeEWVmq+hGmWeJQLydMpM8MzI70kVA2tKYKPcRSU7Uhq4B3LanYC7KmTLPLxALm5c5rqZhTuDgt0nm3FYB4MaU5LTVGeQM+3vsnKXnonhOk5mNNZGX2UKqOxIXXUNIldnF4XIOkeREbehaCloEisQumTmIHPbnkj2gbZd5zrGUZC5W5jbZUoSx68Y8couCldNX+3huXH9wr9hHCdklM5EWQg9BqwRMFkAqM6SkMoef4aAw0rYoJbNFIYu4RNSSPkrI4TJHe13yUi3bKzMkI/NccVtzD7cZq74xz/h8eZnxMyoR1cbMzFVxHCuzkwV/6vKcK7OD2zNz93PXi+Rc39/+gpH8FMihMo/3z4IeIzP3vVgiGgPJnPkWjudQJufq/u5sAt6BQjhUZo8kgm+nAlGOrsz3rjOPYJHYnNhnMVEo54b+4fkCPp/iLy7X5+tkZnMK2SFzTLgXlsYsl5PGBcD/PEr43Gzf8Fmece0T+CKZg68i4IVH/JHMTqK69odDOO6xMov3MOLn5Pvra58AkTlfBQqJXqyXeVP84L5ZPPtiC4SVmGROY0jV2LdxC0B5H0TmY8hV5gL61rySSrDlADjl4A5WftH5WKncgExFV97DSTIryvGozMplUJmVy6AyK5fhF6Jmw5TzyY4iAAAAAElFTkSuQmCC" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b875bcec-6547-4fe2-874f-052771c1584a" CvElementArea="1144, 145, 430, 174" CvType="InputBox" DesignTimeRectangle="1145, 144, 429, 175" ElementType="InputBox" Guid="b4bb1deb-27e3-4892-b9c4-93a3bb441ff5" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="0fa25d35ad7bc6d58c8b2f1397688e16.png" xmlns="">0JT1OTHvtzk6okTcXGkPH9w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

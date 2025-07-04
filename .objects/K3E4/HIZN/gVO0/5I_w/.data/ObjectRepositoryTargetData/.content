@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="7RS4qLFMpEO28STTsvdGDg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="015ee258-41bc-4555-95ae-c4c69f415b05" CvElementArea="818, 321, 290, 36" CvType="InputBox" DesignTimeRectangle="818, 321, 290, 36" ElementType="InputBox" Guid="2e4c4159-80e5-4a41-8c5b-bc50d33480ac" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="015ee258-41bc-4555-95ae-c4c69f415b05" CvTextArea="11, 41, 205, 23" CvTextArgument="SYBS-100 L$nf9REt" CvType="Text" DesignTimeRectangle="11, 41, 205, 23" ElementType="Text" Guid="7262fef9-74d8-493a-bda4-997f94e3f927" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="dae52beaf57af1000ff4827b2acee28c.png" xmlns="">0zkHEyPgKo0Gg1ByLmfU8tA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">SelectItem</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
