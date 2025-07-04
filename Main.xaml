@@ -265,7 +265,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311,20072" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311,22021" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="高压对低压及地" />
       <Variable x:TypeArguments="x:String" Name="出厂编号" />
@@ -2540,6 +2540,25 @@
         <uix:TargetApp Area="-183, 14, 2025, 1094" ContentHash="x_4EkKlMbUy0f_Ftn65xTg" FilePath="D:\试验软件\山东双益工频耐压西区（1拖2）\gptest.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAURSURBVFhH5ZY9aBtJGIa3cLGFiy1SqEgRwRUnuMZwxQnSeMGFB1x4QIUGUoRhCzFsIQYXZnBjFhdGuDDChREuDJvC4BQGuQjomoBSBHSdSrUuXbqc450/rVZKcpfq4AZeFo2++d5nfnb2i6L/QhNHSvK+KnmuSvPsq1JAR6oUx0UpoZOilKeDUkFnVsX5cE0Kcv8jFmPM2OPC5BJHkPFQ3nzE+0qzTC7Vk5pDudL4T0BHSovjQkvoxGug1alV6HMx4giyY02e3OZEbqNMPnmABYJgzE8GWtyMtbyZaHlb04eJVkZTre5WxW8nmt9Otfo40+rB6XG+UfJxYXxYJp89wDQAnI20/LTQ6s+noOLzUgPoy7oQJx4Xq/2VcZDPh/zibGRWwQL01X11BSyAhdho/HWDvtjE4f8KSICoApxbAJbJBABD7JUBOCrWAIL51yc9/I5M7JfVvjqEyQuAi9IDNAGgAkCuAgCIfdJq4tFfm+Xj/O8ViDrA5b0/jK2I95XwAOjEIUFQAYjarOqmdVUB6hArAFcOIJMpAKg/A5B8mG8EGFUAym9oDXIFwK6sOQPXYw9AI56rtrkHbIeWd9PlNny2B6sKUDetysRUIQDgt8DNHitcAeARz2XTXBK5BRB45yvbMPi8MEnWktdm6oVYs/TG2OYIxg9zzT/ONbsKAAIAib31LAC/ujdBCJa4PCogFuYHcnHevMBq4gJ6mGsB87u5ZtcTByAKcxfwnnzxAOy81OzDzASb81CFqIBslI8xb9G6Ob+bmdxLADn0AE/mngYAbqnbmeZ1iMe5Lj5BNvH3Vbl6a+b0dqbp9dR+FzJZeoBZADgZanozXULczbT0IBWYjfIx2D4IW3ln80DIidzkauIB7j3AOAAcDzS5nq5BWJCqYFDvW8bWjdnN1MwcuQ1AjldfTA0A68mRB8B1TK5ssIG4wdcOcjAb5I2CEHuLCdjxJpczJpcTnV5OzGeeZWJuATJZBIC+MgEm+GoSBiPRv5EfR5HjEhprejHW9Pxe07PSrYCrCVgmZQDIlU4vLCVoAwhWxTxtMnZxr9k5VJqDi085P4WGWqCugOqFiSlOKoWJrwlYTzJ/E5rnydAIn2d+7BI5+YrIV0LqrCZUR75C8uMAUQEIXu9FAEhD5zdLsmo5tizFqsa+NAuGuZqLvhrxXA14LgXHRDOZsky2WCYaxtxtQWtlBQKAg8jVs+irOco3u1UCeuE9yVkmKO3yNumwJu3ymHXZjBwyTTtMs3d8EEx+1EiHtUiHsfSAQqS9S1rtXdJo75LYx9AOY0hs1OV65492+K/RaMTNN82YHJAxz4SdQM9dND/TkiSJ4+0YLfFqvmky4Q4RnvF23I6iqBVF0Y7RVpSme2QSquhcLmiHStphy+X+QUuiKGq6hEgOpdFWROPtmDdeN0z5Zgzwuu6ms/bb9jzdS5/IPnkhB0SzLnNb50B7XIueQP+YHBBSN6w3AMCcJq+SAdknz+luCiOd7tknlpe9F9hfTQ6phinZdzogmh5SA8HemTOg+XuuebYU67JFHMffXRHsKyB485fmmHboizdf015qDGnHmTphDDkw8Iud33emrV9b48brxih5lRTxdsxwZOqm623LrcZWJNtv2zPMxMyqy17oIX1O99IF+lu/tSaN140ySZJBHMcCq2e2LYp24jhuRltRI96OE5ynusU/ajiF7qCBnOOFcWejBQNzQHFYf9bgf9/+Bsmx5EvFbflhAAAAAElFTkSuQmCC" InformativeScreenshot="e9426492777e57dd1ccca771d7be6530.png" Reference="V37UO-nxA0SG182om3oalQ/gVO0PK2F6UWsnV2WWbs7-Q" Selector="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,517" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_8">
+      <ui:InterruptibleDoWhile.Body>
+        <Sequence DisplayName="正文" sap:VirtualizedContainerService.HintSize="416,385" sap2010:WorkflowViewState.IdRef="Sequence_41">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" DisplayName="输入对话框" sap:VirtualizedContainerService.HintSize="382,325" sap2010:WorkflowViewState.IdRef="InputDialog_8" IsPassword="False" Label="[“是否可以继续？”]" OptionsString="[“是，请继续;否，请等待”]" Title="[“请人工接管并确认是否完成本轮试验，确保完成试验，再进行点击‘是’按钮。”]">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[可否继续]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+        </Sequence>
+      </ui:InterruptibleDoWhile.Body>
+      <ui:InterruptibleDoWhile.Condition>
+        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="可否继续 &lt;&gt;&quot;是，请继续&quot;" />
+      </ui:InterruptibleDoWhile.Condition>
+    </ui:InterruptibleDoWhile>
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="excel服务器" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1785" sap2010:WorkflowViewState.IdRef="NApplicationCard_16" ScopeGuid="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
@@ -2686,19 +2705,19 @@
         <uix:TargetApp Area="0, 0, 1920, 1020" ContentHash="RqTYJv1TmEm5q3DIB7gHWw" FilePath="C:\Program Files\Cesoft\Excel Server 2022 Client\es2012.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAN+SURBVFhH7ZZNaFRXFMf/mUnSEGqhWlIolLSioqYlIsZ+KmmoEr8KIRCErGooqAHRTXBRoRsptNDShTam2EIWUTdKg1XcKF2USF3YKEpwEyklAQu1TE1ivvzJmbkzc9+dZzLpRFceOMybd+89/9+799xzr5jDenp6kFSSz2dz9igVoKGhIQxZYIsGUClRnkjknl+V+PBpApRL1EpslzgucV7iN4lRiX8kjko0LjbAe05sUOKBE5qydfZ8TGK9679oS/CxxJ+BkO8piUsSpyTaPeCSAU53d3Ms5ivNH0lclPhaYk0ySbXES8EylQZw4QKjTU3MBsL3Jf6Q+FHibYkXY/KjdIBr12Dp0ojwfxI/S9RJJGPE4vz/Ady8CbW1EfHbEvUxAvP5wgF6e2Hduoj4dYmqmODF+MIA+vth1aqI+GB1NW/GBI7zCok3JFokPpFILBhg48aIOFVVnG5uLhAK3apet9v//vhfDaZogOnpgqSjr4+eEycKBH23vPglEPb9fn19qFdgGYCurujgHTtgdragEvre6XaGFaH9Eh9IbJUY8eI8rKmBmZlQM2JKd7CO2YGJBAwOphufBPCpxLTEFVcL/LZeF2dc4vOilsCmf+XKPMDmzbnGOAATtPW+IfFy0PaWxLATbw2TcGwMJiZgfDw9u1nLLMHOnXmAZcvgzp306ziALyUmnVj23QsSXRIT7oB6x73funo1XL0KjY1QWZnxigqoq4N79zyA4WEoL89D7NkTC1AmMSQx4L07IPGXG/e3tySvSNxNJqGsLJpfWT982AMw27cv2mHTJn7o7EyLZsWsIP3rBD9zW80OJTus+l2ZtmVpk/JniM1CRwecOQPt7fn4ra0BwOgoNDUVkFpW/yTRLLHcrbHfflbiC3cBMVFb/4fu+eiKFTA5mYmfSsHatfmxR44EAGZTU3DuHLS1ZXLBE7IvtaC27b6XuOz+h253h9fdjOWScGQErCZk4+3eDUNDMQC+pVL8fugQ30rpO8E3Eh0SrwVJOZe/b1988iTYTJiwJaDVHNsJzp4MEJOExfgSdyvyZyVdZffuhVu3QonSAWpcYfpOos9Lvpnsc0sLDAyEoXNWEoDdjLe5JM19rfs9KLGlqEo4h80HkIUwMRP9SmKD17aw4zjG5gOwu8IuiXfdFg3bnyqAFaWP3H0gbHsmAMX4c4BiAB4DoDzBul59HfMAAAAASUVORK5CYII=" InformativeScreenshot="cc3e70ab5518201794d9fa0b6c0b6e52.png" Reference="V37UO-nxA0SG182om3oalQ/Dz1cr6lx8Ue2PEyYWAXpdg" Selector="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,868" sap2010:WorkflowViewState.IdRef="NApplicationCard_17" ScopeGuid="ac8627e8-8de1-463b-94eb-f202f96701e7" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,839" sap2010:WorkflowViewState.IdRef="NApplicationCard_17" ScopeGuid="ac8627e8-8de1-463b-94eb-f202f96701e7" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,574" sap2010:WorkflowViewState.IdRef="Sequence_40">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,536" sap2010:WorkflowViewState.IdRef="Sequence_40">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 '出厂编号'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,292" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="ac8627e8-8de1-463b-94eb-f202f96701e7" Text="[出厂编号]" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 '出厂编号'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="ac8627e8-8de1-463b-94eb-f202f96701e7" Text="[出厂编号]" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable ContentHash="F6z7F2P0K0-1r7stZysYpA" DesignTimeRectangle="43, 372, 112, 36" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='A3' cls='XLSpreadsheetCell' name='A3' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='A3' /&gt;" Guid="fc991536-2042-4be5-88da-c60a99bf1211" InformativeScreenshot="f582658d3547e3b22f5aa770a7a70bd6.png" Reference="V37UO-nxA0SG182om3oalQ/s8GjR58j1UmyZDKehRLvqg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
@@ -2708,16 +2727,6 @@
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
-              <uix:NTypeInto.VerifyOptions>
-                <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionTypeIntoOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionTypeIntoOptions.Retry>
-                  <uix:VerifyExecutionTypeIntoOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionTypeIntoOptions.Timeout>
-                </uix:VerifyExecutionTypeIntoOptions>
-              </uix:NTypeInto.VerifyOptions>
             </uix:NTypeInto>
             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 'I'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac8627e8-8de1-463b-94eb-f202f96701e7" Version="V4">
               <uix:NClick.Target>
@@ -2725,6 +2734,87 @@
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
                       <uix:Target CVScreenId="9946a32c-ca0c-4e4a-86dc-78399fa78727" CvTextArea="989, 286, 10, 15" CvTextArgument="I" CvType="Text" DesignTimeRectangle="939, 282, 112, 24" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='XLGridColumnHeader' name='I' role='列标题' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='I' /&gt;" Guid="f8e29f13-359b-43a9-890d-1979a8261b01" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" ContentHash="J-0WwKnjskCwoQEyzh3T8g" FilePath="C:\Program Files\Microsoft Office\root\Office16\excel.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAQiSURBVFhH7dhLTFxVGAfwU6PGhpl7Zy7MHXDRFlzY1IYWhhlKYQoUCnXAaaEQW18bxfKqtrRlgL5meA2wcaFtTVNrizZqY4JGY+urprFx5aKyVBNlobiyJi5c/s05d+65M4c7dAZPZ0H8kn/CzOTm++U7534LCFkltYYQ8kCOk3GtKZ7t+rj4nZexkvhux1aWb6MfiZB0tVZsmk2WNM4ihJAHRYxdqWLTbCI2zSaEEIeIsSuX2DSbiE2zCSFEEzF29T8wXVYPcMNbL2LZXDJSfKULxbOSgUUzbXNF020omt6Lwqk9RuJheGkmn2LRJ1qNjLfAMx6CZ4zmSRSM0uxGQawZ+bFmeKfCBnS2SyKQwRK4eFjA3QM2asDyo03Ij+6CdmYX1CPVcA3XwnWynkU88mzCgPZTS8AmWlJwBQyXBItRWBODaWca4T7dCPVwNdTBHXCdqJMEzPg4KWx3AmZMLRnmPt0A96mdUPqroB6tgWtEEtAbXwp74doYZm5dxcytd1F3oS/lno3cOI/pb2Yxcv1cAmfAXDQn66H0VkIdkAkU79l4CPUX+mHW7V9/4BN7/v0o/374s7Nwn0rg6H07QVMHZ49kYLp79t6dLzgmfPkYO86Fu38Y6F/uJGAmrg7qCE2tfKDt2xlrRsl0O/76528O6pub4eDg2S4OoxAKU4droQ7tgLM7IBlos8/MF4DeM7NM7LnvPjRgbGoWjCUSlA9cfm00YH7xZ45cuLuI9WOt/Dg5LhKEMhiEcrwGzoOSgfYw6+2kqOQprhttSYGpFDZYw3DKsWpoHVuhd5Sj8JkACp+r5At7JTGAHGZNzVwbUzcvc5h5xFe/vw41Yk7NgilHt7NoHVvkAu1g9MfgGy/xycW/ehtDn7zOP4fePGTBEjjnQBWcR6qg7ZMMZDATl7Q25n//iWEW/lzEumiITYz+TWv+tx+tqQ1sZzDn4W0s8oE2+2zoU2taPdcm+T3r/mCCfz/5+UU+NYZ7tRLOVwLygSYseW3Q44x/eYkl9Z5VM9jkjYuIzL2WAnMcCsDR74fWXioZmLzPhq19Zq4Nu3tmwSrhZDAD5+irkA9Mt8+U4xZMvGfi1CjM0VsBR48P7rZS6J0ygWn2GYctmZoNrNeHvJ5y5HWXQWt5QjIwEpwT71m64+QwjvPBwWDlyDtYBsf+zcgPbYbe6ePA/xIGzKBcin89ls8GqFUlcO98HJ7wFnifrkDhszkEag0bsWwaN0Jr2oSC1lLo+8rhPeBf0mwlyRjo2bMVabM3kfYy6B0+ePf7pUyPJmMgbXrPHPDDS++dJBxNxkDxwVxl1QBV8cFcJVPgWr3Td1N8+H5H7/R9TQhRRIxdPUQIKSGEBAgh23IU2usxQsjDIsau6H/4HyGEeAghRYSQR+9zaA+dnhzt/S8bdOXkP86XLAAAAABJRU5ErkJggg==" InformativeScreenshot="23acabcd5692787c7d3b0db886621296.png" Reference="V37UO-nxA0SG182om3oalQ/OscnLCV9N0G2D4bu-54XBg" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,517" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_9">
+      <ui:InterruptibleDoWhile.Body>
+        <Sequence DisplayName="正文" sap:VirtualizedContainerService.HintSize="416,385" sap2010:WorkflowViewState.IdRef="Sequence_42">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ui:InputDialog Options="{x:Null}" DisplayName="输入对话框" sap:VirtualizedContainerService.HintSize="382,325" sap2010:WorkflowViewState.IdRef="InputDialog_9" IsPassword="False" Label="[“是否可以继续？”]" OptionsString="[“是，请保存;否，请等待”]" Title="[“请人工接管并确认是否完成本台全部试验，确保完成试验，再进行点击‘是’按钮。”]">
+            <ui:InputDialog.Result>
+              <OutArgument x:TypeArguments="x:String">[可否继续]</OutArgument>
+            </ui:InputDialog.Result>
+          </ui:InputDialog>
+        </Sequence>
+      </ui:InterruptibleDoWhile.Body>
+      <ui:InterruptibleDoWhile.Condition>
+        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="可否继续 &lt;&gt;&quot;是，请保存&quot;" />
+      </ui:InterruptibleDoWhile.Condition>
+    </ui:InterruptibleDoWhile>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,944" sap2010:WorkflowViewState.IdRef="NApplicationCard_18" ScopeGuid="823ceded-b36d-4707-98ab-e33233464e47" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,650" sap2010:WorkflowViewState.IdRef="Sequence_43">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="关闭窗口 'excel.exe 填报:'" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="CloseWindow_1" InformativeScreenshot="aecfee72caa321dc759e47af52d3f675" WaitForReady="INTERACTIVE" />
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '保存'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="823ceded-b36d-4707-98ab-e33233464e47" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="95b9b547-9eb5-49e9-9043-66ce184089a3" ContentHash="HpgmdEGSFESQJkJ4JZJxuA" CvElementArea="423, 78, 110, 31" CvTextArea="458, 85, 36, 18" CvTextArgument="RF" CvType="Button" DesignTimeRectangle="425, 80, 108, 29" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='cmdOk' /&gt;" Guid="28bbd233-c5b1-4c11-9ba2-cb0cae3c7faa" InformativeScreenshot="61ef59bfe327cfb2b97810837b2608a1.png" Reference="V37UO-nxA0SG182om3oalQ/F_4Id5uzoUWeuqXVWMlSXQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='frmRun_CaseSave' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="95b9b547-9eb5-49e9-9043-66ce184089a3" CvElementArea="519, 9, 20, 20" CvType="CloseButton" DesignTimeRectangle="510, 1, 42, 35" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.BUTTON.*' title='r' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='r' /&gt;" Guid="b8b52daf-4d34-49aa-b956-b178ae2c2843" SearchSteps="FuzzySelector, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NClick.Target>
+              <uix:NClick.VerifyOptions>
+                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                  <uix:VerifyExecutionOptions.Retry>
+                    <InArgument x:TypeArguments="x:Boolean" />
+                  </uix:VerifyExecutionOptions.Retry>
+                  <uix:VerifyExecutionOptions.Timeout>
+                    <InArgument x:TypeArguments="x:Double" />
+                  </uix:VerifyExecutionOptions.Timeout>
+                </uix:VerifyExecutionOptions>
+              </uix:NClick.VerifyOptions>
+            </uix:NClick>
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '否(&amp;N)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="NClick_33" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="823ceded-b36d-4707-98ab-e33233464e47" Version="V4">
+              <uix:NClick.Target>
+                <uix:TargetAnchorable CVScreenId="fd855944-b850-460a-a4ad-fd33d4ef58cf" ContentHash="DSF1I3oOt0GRAKU6o32W3w" CvElementArea="152, 140, 101, 35" CvTextArea="183, 150, 36, 16" CvTextArgument="S(N)" CvType="Button" DesignTimeRectangle="153, 141, 100, 35" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='7' title='否(&amp;amp;N)' /&gt;" Guid="aed8f8ec-ce8c-48d7-b454-1f0f7594ff87" InformativeScreenshot="c9bd342950e201b7b373ee00e5109c94.png" Reference="V37UO-nxA0SG182om3oalQ/SgRK0eHlt0yZc3lAY-A1Bg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='#32770' title='提示' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="fd855944-b850-460a-a4ad-fd33d4ef58cf" CvElementArea="242, 8, 23, 22" CvType="CloseButton" DesignTimeRectangle="232, 1, 44, 37" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='关闭' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='关闭' /&gt;" Guid="cc62737a-82b3-478d-a2dd-e33571dbcdd3" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
