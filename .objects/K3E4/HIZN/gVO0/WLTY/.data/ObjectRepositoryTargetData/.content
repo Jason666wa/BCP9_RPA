@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="maUnCSDdL0mfEavC6QakuA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="871c2c24-f3ef-4081-b6e8-36dfa676d1d8" CvElementArea="1425, 449, 552, 45" CvType="InputBox" DesignTimeRectangle="1425, 450, 552, 45" ElementType="InputBox" Guid="8528ae3c-7495-44a1-9d0d-32598a5b9f5c" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="871c2c24-f3ef-4081-b6e8-36dfa676d1d8" CvElementArea="1737, 524, 243, 73" CvTextArea="1799, 541, 117, 42" CvTextArgument="ìt&amp;(S)" CvType="Button" DesignTimeRectangle="1738, 524, 243, 73" ElementType="Button" Guid="4f1f221d-bf1a-4571-9fcc-bcddd78548fd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="6040d48b04b1bd0aa9a67bf7ea0b3a7b.png" xmlns="">0i-_FTvPia0mWzSrwFtp0RA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

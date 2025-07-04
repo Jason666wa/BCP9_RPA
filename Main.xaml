@@ -265,16 +265,16 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311,5365" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311,6385" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
-      <Variable x:TypeArguments="x:String" Name="高压对低压及地_KV" />
+      <Variable x:TypeArguments="x:String" Name="高压对低压及地" />
       <Variable x:TypeArguments="x:String" Name="出厂编号" />
-      <Variable x:TypeArguments="x:String" Name="低压对高压及地_KV" />
-      <Variable x:TypeArguments="x:String" Name="低压第一段对高压低压及地_KV" />
-      <Variable x:TypeArguments="x:String" Name="低压第二段对高压低压及地_KV" />
-      <Variable x:TypeArguments="x:String" Name="低压第三段对高压低压及地_KV" />
-      <Variable x:TypeArguments="x:String" Name="低压小组间_KV" />
-      <Variable x:TypeArguments="x:String" Name="三线圈对高压低压_KV" />
+      <Variable x:TypeArguments="x:String" Name="低压对高压及地" />
+      <Variable x:TypeArguments="x:String" Name="低压第一段对高压低压及地" />
+      <Variable x:TypeArguments="x:String" Name="低压第二段对高压低压及地" />
+      <Variable x:TypeArguments="x:String" Name="低压第三段对高压低压及地" />
+      <Variable x:TypeArguments="x:String" Name="低压小组间" />
+      <Variable x:TypeArguments="x:String" Name="三线圈对高压低压" />
     </Sequence.Variables>
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -301,51 +301,96 @@
             <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[出厂编号+“已存至出厂编号”]" />
             <ueab:ReadCellValueX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;B2&quot;)]" DisplayName="读取单元格值" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,197" sap2010:WorkflowViewState.IdRef="ReadCellValueX_2">
               <ueab:ReadCellValueX.SaveTo>
-                <OutArgument x:TypeArguments="x:String">[高压对低压及地_KV]</OutArgument>
+                <OutArgument x:TypeArguments="x:String">[高压对低压及地]</OutArgument>
               </ueab:ReadCellValueX.SaveTo>
             </ueab:ReadCellValueX>
-            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[高压对低压及地_KV+“已存至变量-高压对低压及地_KV”]" />
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[高压对低压及地+“已存至变量-高压对低压及地”]" />
             <ueab:ReadCellValueX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;C2&quot;)]" DisplayName="读取单元格值" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,197" sap2010:WorkflowViewState.IdRef="ReadCellValueX_3">
               <ueab:ReadCellValueX.SaveTo>
-                <OutArgument x:TypeArguments="x:String">[低压对高压及地_KV]</OutArgument>
+                <OutArgument x:TypeArguments="x:String">[低压对高压及地]</OutArgument>
               </ueab:ReadCellValueX.SaveTo>
             </ueab:ReadCellValueX>
-            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[低压对高压及地_KV+“已存至变量-低压对高压及地_KV”]" />
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_6" Level="Info" Message="[低压对高压及地+“已存至变量-低压对高压及地”]" />
             <ueab:ReadCellValueX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;D2&quot;)]" DisplayName="读取单元格值" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,197" sap2010:WorkflowViewState.IdRef="ReadCellValueX_4">
               <ueab:ReadCellValueX.SaveTo>
-                <OutArgument x:TypeArguments="x:String">[低压第一段对高压低压及地_KV]</OutArgument>
+                <OutArgument x:TypeArguments="x:String">[低压第一段对高压低压及地]</OutArgument>
               </ueab:ReadCellValueX.SaveTo>
             </ueab:ReadCellValueX>
-            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[低压第一段对高压低压及地_KV+“已存至变量-低压第一段对高压低压及地_KV”]" />
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[低压第一段对高压低压及地+“已存至变量-低压第一段对高压低压及地”]" />
             <ueab:ReadCellValueX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;E2&quot;)]" DisplayName="读取单元格值" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,197" sap2010:WorkflowViewState.IdRef="ReadCellValueX_5">
               <ueab:ReadCellValueX.SaveTo>
-                <OutArgument x:TypeArguments="x:String">[低压第二段对高压低压及地_KV]</OutArgument>
+                <OutArgument x:TypeArguments="x:String">[低压第二段对高压低压及地]</OutArgument>
               </ueab:ReadCellValueX.SaveTo>
             </ueab:ReadCellValueX>
-            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[低压第二段对高压低压及地_KV+“已存至变量-低压第二段对高压低压及地_KV”]" />
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[低压第二段对高压低压及地+“已存至变量-低压第二段对高压低压及地”]" />
             <ueab:ReadCellValueX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;F2&quot;)]" DisplayName="读取单元格值" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,197" sap2010:WorkflowViewState.IdRef="ReadCellValueX_6">
               <ueab:ReadCellValueX.SaveTo>
-                <OutArgument x:TypeArguments="x:String">[低压第三段对高压低压及地_KV]</OutArgument>
+                <OutArgument x:TypeArguments="x:String">[低压第三段对高压低压及地]</OutArgument>
               </ueab:ReadCellValueX.SaveTo>
             </ueab:ReadCellValueX>
-            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[低压第三段对高压低压及地_KV+“已存至变量-低压第三段对高压低压及地_KV”]" />
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[低压第三段对高压低压及地+“已存至变量-低压第三段对高压低压及地”]" />
             <ueab:ReadCellValueX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;G2&quot;)]" DisplayName="读取单元格值" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,197" sap2010:WorkflowViewState.IdRef="ReadCellValueX_7">
               <ueab:ReadCellValueX.SaveTo>
-                <OutArgument x:TypeArguments="x:String">[低压小组间_KV]</OutArgument>
+                <OutArgument x:TypeArguments="x:String">[低压小组间]</OutArgument>
               </ueab:ReadCellValueX.SaveTo>
             </ueab:ReadCellValueX>
-            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[低压小组间_KV+“已存至变量-低压小组间_KV”]" />
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,177" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[低压小组间+“已存至变量-低压小组间”]" />
             <ueab:ReadCellValueX Cell="[Excel.Sheet(&quot;Sheet1&quot;).Cell(&quot;H2&quot;)]" DisplayName="读取单元格值" GetFormattedText="True" sap:VirtualizedContainerService.HintSize="444,197" sap2010:WorkflowViewState.IdRef="ReadCellValueX_8">
               <ueab:ReadCellValueX.SaveTo>
-                <OutArgument x:TypeArguments="x:String">[三线圈对高压低压_KV]</OutArgument>
+                <OutArgument x:TypeArguments="x:String">[三线圈对高压低压]</OutArgument>
               </ueab:ReadCellValueX.SaveTo>
             </ueab:ReadCellValueX>
-            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,168" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[三线圈对高压低压_KV+“已存至变量-三线圈对高压低压_KV”]" />
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="444,168" sap2010:WorkflowViewState.IdRef="LogMessage_11" Level="Info" Message="[三线圈对高压低压+“已存至变量-三线圈对高压低压”]" />
           </Sequence>
         </ActivityAction>
       </ueab:ExcelApplicationCard.Body>
     </ueab:ExcelApplicationCard>
-    <Sequence sap:VirtualizedContainerService.HintSize="518,1987" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="518,1022" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,679" sap2010:WorkflowViewState.IdRef="Sequence_20">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 'Inputbox'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="fa83bd96-92f3-460c-80d0-606bb3d20c29" Text="[出厂编号]" Version="V4">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable CVScreenId="871c2c24-f3ef-4081-b6e8-36dfa676d1d8" ContentHash="maUnCSDdL0mfEavC6QakuA" CvElementArea="1425, 449, 552, 45" CvType="InputBox" DesignTimeRectangle="1425, 450, 552, 45" ElementType="InputBox" Guid="8528ae3c-7495-44a1-9d0d-32598a5b9f5c" InformativeScreenshot="6040d48b04b1bd0aa9a67bf7ea0b3a7b.png" Reference="V37UO-nxA0SG182om3oalQ/WLTYCSPYO0KwH4qhxPIf0w" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CVScreenId="871c2c24-f3ef-4081-b6e8-36dfa676d1d8" CvElementArea="1737, 524, 243, 73" CvTextArea="1799, 541, 117, 42" CvTextArgument="ìt&amp;(S)" CvType="Button" DesignTimeRectangle="1738, 524, 243, 73" ElementType="Button" Guid="4f1f221d-bf1a-4571-9fcc-bcddd78548fd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[出厂编号+“已输入”]" />
+            <uix:NSelectItem DisplayName="选择项目 'Inputbox(1)'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,184" sap2010:WorkflowViewState.IdRef="NSelectItem_1" Item="[“低压对高压及地”]" ScopeIdentifier="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V4">
+              <uix:NSelectItem.Items>
+                <scg:List x:TypeArguments="x:String" Capacity="0" />
+              </uix:NSelectItem.Items>
+              <uix:NSelectItem.Target>
+                <uix:TargetAnchorable CVScreenId="3eee3498-48b2-4d79-a5e4-7fe65831439a" ContentHash="Yzia_acy30a_InPTMMHaBw" CvElementArea="1021, 400, 363, 46" CvType="InputBox" DesignTimeRectangle="1022, 400, 363, 46" ElementType="InputBox" Guid="c7dedc33-e950-4590-8863-3be318e79100" InformativeScreenshot="1a969734d875b6e847440d61f1c93051.png" Reference="V37UO-nxA0SG182om3oalQ/W-b643kfIUW5KjCgCWidOg" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                      <uix:Target CVScreenId="3eee3498-48b2-4d79-a5e4-7fe65831439a" CvElementArea="1021, 475, 360, 73" CvTextArea="1176, 498, 52, 28" CvTextArgument="{}{R7" CvType="Button" DesignTimeRectangle="1022, 475, 360, 73" ElementType="Button" Guid="e4890baa-a5df-40e7-8c6c-1f67fcd65dcd" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NSelectItem.Target>
+            </uix:NSelectItem>
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-183, 14, 2025, 1094" ContentHash="x_4EkKlMbUy0f_Ftn65xTg" FilePath="D:\试验软件\山东双益工频耐压西区（1拖2）\gptest.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAURSURBVFhH5ZY9aBtJGIa3cLGFiy1SqEgRwRUnuMZwxQnSeMGFB1x4QIUGUoRhCzFsIQYXZnBjFhdGuDDChREuDJvC4BQGuQjomoBSBHSdSrUuXbqc450/rVZKcpfq4AZeFo2++d5nfnb2i6L/QhNHSvK+KnmuSvPsq1JAR6oUx0UpoZOilKeDUkFnVsX5cE0Kcv8jFmPM2OPC5BJHkPFQ3nzE+0qzTC7Vk5pDudL4T0BHSovjQkvoxGug1alV6HMx4giyY02e3OZEbqNMPnmABYJgzE8GWtyMtbyZaHlb04eJVkZTre5WxW8nmt9Otfo40+rB6XG+UfJxYXxYJp89wDQAnI20/LTQ6s+noOLzUgPoy7oQJx4Xq/2VcZDPh/zibGRWwQL01X11BSyAhdho/HWDvtjE4f8KSICoApxbAJbJBABD7JUBOCrWAIL51yc9/I5M7JfVvjqEyQuAi9IDNAGgAkCuAgCIfdJq4tFfm+Xj/O8ViDrA5b0/jK2I95XwAOjEIUFQAYjarOqmdVUB6hArAFcOIJMpAKg/A5B8mG8EGFUAym9oDXIFwK6sOQPXYw9AI56rtrkHbIeWd9PlNny2B6sKUDetysRUIQDgt8DNHitcAeARz2XTXBK5BRB45yvbMPi8MEnWktdm6oVYs/TG2OYIxg9zzT/ONbsKAAIAib31LAC/ujdBCJa4PCogFuYHcnHevMBq4gJ6mGsB87u5ZtcTByAKcxfwnnzxAOy81OzDzASb81CFqIBslI8xb9G6Ob+bmdxLADn0AE/mngYAbqnbmeZ1iMe5Lj5BNvH3Vbl6a+b0dqbp9dR+FzJZeoBZADgZanozXULczbT0IBWYjfIx2D4IW3ln80DIidzkauIB7j3AOAAcDzS5nq5BWJCqYFDvW8bWjdnN1MwcuQ1AjldfTA0A68mRB8B1TK5ssIG4wdcOcjAb5I2CEHuLCdjxJpczJpcTnV5OzGeeZWJuATJZBIC+MgEm+GoSBiPRv5EfR5HjEhprejHW9Pxe07PSrYCrCVgmZQDIlU4vLCVoAwhWxTxtMnZxr9k5VJqDi085P4WGWqCugOqFiSlOKoWJrwlYTzJ/E5rnydAIn2d+7BI5+YrIV0LqrCZUR75C8uMAUQEIXu9FAEhD5zdLsmo5tizFqsa+NAuGuZqLvhrxXA14LgXHRDOZsky2WCYaxtxtQWtlBQKAg8jVs+irOco3u1UCeuE9yVkmKO3yNumwJu3ymHXZjBwyTTtMs3d8EEx+1EiHtUiHsfSAQqS9S1rtXdJo75LYx9AOY0hs1OV65492+K/RaMTNN82YHJAxz4SdQM9dND/TkiSJ4+0YLfFqvmky4Q4RnvF23I6iqBVF0Y7RVpSme2QSquhcLmiHStphy+X+QUuiKGq6hEgOpdFWROPtmDdeN0z5Zgzwuu6ms/bb9jzdS5/IPnkhB0SzLnNb50B7XIueQP+YHBBSN6w3AMCcJq+SAdknz+luCiOd7tknlpe9F9hfTQ6phinZdzogmh5SA8HemTOg+XuuebYU67JFHMffXRHsKyB485fmmHboizdf015qDGnHmTphDDkw8Iud33emrV9b48brxih5lRTxdsxwZOqm623LrcZWJNtv2zPMxMyqy17oIX1O99IF+lu/tSaN140ySZJBHMcCq2e2LYp24jhuRltRI96OE5ynusU/ajiF7qCBnOOFcWejBQNzQHFYf9bgf9/+Bsmx5EvFbflhAAAAAElFTkSuQmCC" InformativeScreenshot="e9426492777e57dd1ccca771d7be6530.png" Reference="V37UO-nxA0SG182om3oalQ/gVO0PK2F6UWsnV2WWbs7-Q" Selector="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" Version="V2" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,1985" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="x:String" Name="BCP9" />
       </Sequence.Variables>
@@ -355,13 +400,13 @@
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1904" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="59b4eef8-97b4-418f-9f4a-2ab5978d7793">
+      <uix:NApplicationCard DisplayName="Browser" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1902" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="59b4eef8-97b4-418f-9f4a-2ab5978d7793">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1610" sap2010:WorkflowViewState.IdRef="Sequence_1">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1608" sap2010:WorkflowViewState.IdRef="Sequence_1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
