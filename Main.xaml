@@ -265,7 +265,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311,22360" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311,22530" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="高压对低压及地" />
       <Variable x:TypeArguments="x:String" Name="出厂编号" />
@@ -346,13 +346,13 @@
         </ActivityAction>
       </ueab:ExcelApplicationCard.Body>
     </ueab:ExcelApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,2013" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,2015" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="468,1710" sap2010:WorkflowViewState.IdRef="Sequence_20">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="468,1712" sap2010:WorkflowViewState.IdRef="Sequence_20">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2488,13 +2488,13 @@
         </Sequence>
       </ui:InterruptibleDoWhile.Body>
     </ui:InterruptibleDoWhile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1582" sap2010:WorkflowViewState.IdRef="NApplicationCard_14" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1622" sap2010:WorkflowViewState.IdRef="NApplicationCard_14" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="468,1279" sap2010:WorkflowViewState.IdRef="Sequence_38">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="468,1319" sap2010:WorkflowViewState.IdRef="Sequence_38">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2533,7 +2533,7 @@
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
             <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="434,179" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[三线圈对高压低压+“已输入”]" />
-            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DisplayName="计算机视觉屏幕作用域 'client  TransfomerTests'" sap:VirtualizedContainerService.HintSize="434,555" sap2010:WorkflowViewState.IdRef="CVScope_6" SendOnPremData="False" Version="V6">
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DisplayName="计算机视觉屏幕作用域 'client  TransfomerTests'" sap:VirtualizedContainerService.HintSize="434,595" sap2010:WorkflowViewState.IdRef="CVScope_6" SendOnPremData="False" Version="V6">
               <p:CVScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
@@ -2843,13 +2843,13 @@
         </Sequence>
       </ui:InterruptibleDoWhile.Body>
     </ui:InterruptibleDoWhile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="excel服务器" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1789" sap2010:WorkflowViewState.IdRef="NApplicationCard_16" ScopeGuid="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="excel服务器" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1787" sap2010:WorkflowViewState.IdRef="NApplicationCard_16" ScopeGuid="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,1486" sap2010:WorkflowViewState.IdRef="Sequence_39">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,1484" sap2010:WorkflowViewState.IdRef="Sequence_39">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2879,10 +2879,10 @@
             </uix:NClick>
             <uix:NClick ActivateBefore="True" ClickType="Double" DisplayName="双击 '质量中心'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_24" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V4">
               <uix:NClick.Target>
-                <uix:TargetAnchorable CVScreenId="e5117a9c-bf51-4ca1-bba5-af9c8431739f" ContentHash="lXJaUhUCOkSSBeQ-GYsgyg" CvTextArea="63, 538, 63, 18" CvTextArgument="BAtO" CvType="Text" DesignTimeRectangle="63, 536, 65, 27" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tv' /&gt;&lt;wnd ctrlname='pnlTv' /&gt;&lt;wnd ctrlname='MyTree1' /&gt;&lt;ctrl name='质量中心' role='outline item' /&gt;" Guid="dc65f425-a3e9-4447-8310-fcd459bd46c0" InformativeScreenshot="bdfed7bb2467c738f0625b742d858d0e.png" Reference="V37UO-nxA0SG182om3oalQ/emXSD2E-306jTfhrj-yEOg" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                <uix:TargetAnchorable CVScreenId="a61cec10-a6a5-4caa-a41a-061e17ebe1da" ContentHash="WokDAT-7wUCWf22USTpJ_Q" CvTextArea="63, 538, 63, 18" CvTextArgument="BAtO" CvType="Text" DesignTimeRectangle="63, 536, 65, 27" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tv' /&gt;&lt;wnd ctrlname='pnlTv' /&gt;&lt;wnd ctrlname='MyTree1' /&gt;&lt;ctrl name='质量中心' role='outline item' /&gt;" Guid="b6985baf-033c-4e99-93c3-72e72bf7d935" InformativeScreenshot="1d647f2631a1bbb1830da93a3abae233.png" Reference="V37UO-nxA0SG182om3oalQ/emXSD2E-306jTfhrj-yEOg" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target CVScreenId="e5117a9c-bf51-4ca1-bba5-af9c8431739f" CvElementArea="126, 115, 127, 41" CvTextArea="143, 126, 91, 20" CvTextArgument="FEASIRES" CvType="Button" DesignTimeRectangle="128, 117, 125, 38" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='我的工作台' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='我的工作台' /&gt;" Guid="2ea1240f-b0ac-459d-ba20-eeb54391cf47" SearchSteps="FuzzySelector, CV" />
+                      <uix:Target CVScreenId="a61cec10-a6a5-4caa-a41a-061e17ebe1da" CvElementArea="3, 114, 127, 41" CvType="Button" DesignTimeRectangle="3, 117, 125, 38" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='首页' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='首页' /&gt;" Guid="ec7cfd93-f145-4611-b193-382a048bc053" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
@@ -2961,12 +2961,12 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '新建'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '新建'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V4">
               <uix:NClick.Target>
-                <uix:TargetAnchorable ContentHash="RN3yCJJp2UiFk_4gYNI6wQ" DesignTimeRectangle="581, 196, 65, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tbGrd' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='新建' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="8d183c81-d9f2-4b7c-ac1a-2edf683ae40e" InformativeScreenshot="f37875ec6219eeaa3b24e6fdf9f845c5.png" Reference="V37UO-nxA0SG182om3oalQ/sOMPB0MBZ0SL1P13831lVw" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                <uix:TargetAnchorable ContentHash="ox838F3aa0-Upkuf7YJjFA" DesignTimeRectangle="581, 196, 65, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tbGrd' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='新建' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='新建' /&gt;" Guid="6c5bcd69-856c-4c29-bc5a-efca4753528b" InformativeScreenshot="f2f9455a43dc0076a338c123c12bd290.png" Reference="V37UO-nxA0SG182om3oalQ/sOMPB0MBZ0SL1P13831lVw" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
-                      <uix:Target DesignTimeRectangle="253, 117, 125, 38" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='文档管理' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='文档管理' /&gt;" Guid="2bb3fd11-9d67-4a4e-bc7c-be99d98c0041" SearchSteps="FuzzySelector" />
+                      <uix:Target DesignTimeRectangle="3, 117, 125, 38" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='首页' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='首页' /&gt;" Guid="4e6534dd-4c2f-417f-ac6a-7921674bae5c" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
                 </uix:TargetAnchorable>
@@ -2989,19 +2989,20 @@
         <uix:TargetApp Area="0, 0, 1920, 1020" ContentHash="RqTYJv1TmEm5q3DIB7gHWw" FilePath="C:\Program Files\Cesoft\Excel Server 2022 Client\es2012.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAN+SURBVFhH7ZZNaFRXFMf/mUnSEGqhWlIolLSioqYlIsZ+KmmoEr8KIRCErGooqAHRTXBRoRsptNDShTam2EIWUTdKg1XcKF2USF3YKEpwEyklAQu1TE1ivvzJmbkzc9+dZzLpRFceOMybd+89/9+799xzr5jDenp6kFSSz2dz9igVoKGhIQxZYIsGUClRnkjknl+V+PBpApRL1EpslzgucV7iN4lRiX8kjko0LjbAe05sUOKBE5qydfZ8TGK9679oS/CxxJ+BkO8piUsSpyTaPeCSAU53d3Ms5ivNH0lclPhaYk0ySbXES8EylQZw4QKjTU3MBsL3Jf6Q+FHibYkXY/KjdIBr12Dp0ojwfxI/S9RJJGPE4vz/Ady8CbW1EfHbEvUxAvP5wgF6e2Hduoj4dYmqmODF+MIA+vth1aqI+GB1NW/GBI7zCok3JFokPpFILBhg48aIOFVVnG5uLhAK3apet9v//vhfDaZogOnpgqSjr4+eEycKBH23vPglEPb9fn19qFdgGYCurujgHTtgdragEvre6XaGFaH9Eh9IbJUY8eI8rKmBmZlQM2JKd7CO2YGJBAwOphufBPCpxLTEFVcL/LZeF2dc4vOilsCmf+XKPMDmzbnGOAATtPW+IfFy0PaWxLATbw2TcGwMJiZgfDw9u1nLLMHOnXmAZcvgzp306ziALyUmnVj23QsSXRIT7oB6x73funo1XL0KjY1QWZnxigqoq4N79zyA4WEoL89D7NkTC1AmMSQx4L07IPGXG/e3tySvSNxNJqGsLJpfWT982AMw27cv2mHTJn7o7EyLZsWsIP3rBD9zW80OJTus+l2ZtmVpk/JniM1CRwecOQPt7fn4ra0BwOgoNDUVkFpW/yTRLLHcrbHfflbiC3cBMVFb/4fu+eiKFTA5mYmfSsHatfmxR44EAGZTU3DuHLS1ZXLBE7IvtaC27b6XuOz+h253h9fdjOWScGQErCZk4+3eDUNDMQC+pVL8fugQ30rpO8E3Eh0SrwVJOZe/b1988iTYTJiwJaDVHNsJzp4MEJOExfgSdyvyZyVdZffuhVu3QonSAWpcYfpOos9Lvpnsc0sLDAyEoXNWEoDdjLe5JM19rfs9KLGlqEo4h80HkIUwMRP9SmKD17aw4zjG5gOwu8IuiXfdFg3bnyqAFaWP3H0gbHsmAMX4c4BiAB4DoDzBul59HfMAAAAASUVORK5CYII=" InformativeScreenshot="cc3e70ab5518201794d9fa0b6c0b6e52.png" Reference="V37UO-nxA0SG182om3oalQ/Dz1cr6lx8Ue2PEyYWAXpdg" Selector="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,608" sap2010:WorkflowViewState.IdRef="NApplicationCard_17" ScopeGuid="ac8627e8-8de1-463b-94eb-f202f96701e7" Version="V2">
+    <Delay DisplayName="延迟" Duration="00:00:05" sap:VirtualizedContainerService.HintSize="512,124" sap2010:WorkflowViewState.IdRef="Delay_2" />
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,612" sap2010:WorkflowViewState.IdRef="NApplicationCard_17" ScopeGuid="ac8627e8-8de1-463b-94eb-f202f96701e7" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,305" sap2010:WorkflowViewState.IdRef="Sequence_40">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,309" sap2010:WorkflowViewState.IdRef="Sequence_40">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 '出厂编号'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="ac8627e8-8de1-463b-94eb-f202f96701e7" Text="[出厂编号 + &quot;[k(Enter)]&quot;]" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 '出厂编号'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,247" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="ac8627e8-8de1-463b-94eb-f202f96701e7" Text="[出厂编号 + &quot;[k(Enter)]&quot;]" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable ContentHash="F6z7F2P0K0-1r7stZysYpA" DesignTimeRectangle="43, 372, 112, 36" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='A3' cls='XLSpreadsheetCell' name='A3' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='A3' /&gt;" Guid="fc991536-2042-4be5-88da-c60a99bf1211" InformativeScreenshot="f582658d3547e3b22f5aa770a7a70bd6.png" Reference="V37UO-nxA0SG182om3oalQ/s8GjR58j1UmyZDKehRLvqg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
@@ -3035,13 +3036,13 @@
         </Sequence>
       </ui:InterruptibleDoWhile.Body>
     </ui:InterruptibleDoWhile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,944" sap2010:WorkflowViewState.IdRef="NApplicationCard_18" ScopeGuid="823ceded-b36d-4707-98ab-e33233464e47" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,946" sap2010:WorkflowViewState.IdRef="NApplicationCard_18" ScopeGuid="823ceded-b36d-4707-98ab-e33233464e47" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,650" sap2010:WorkflowViewState.IdRef="Sequence_43">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,652" sap2010:WorkflowViewState.IdRef="Sequence_43">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
