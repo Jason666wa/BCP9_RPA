@@ -265,7 +265,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311,22021" sap2010:WorkflowViewState.IdRef="Sequence_5">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1311,22360" sap2010:WorkflowViewState.IdRef="Sequence_5">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="高压对低压及地" />
       <Variable x:TypeArguments="x:String" Name="出厂编号" />
@@ -346,19 +346,19 @@
         </ActivityAction>
       </ueab:ExcelApplicationCard.Body>
     </ueab:ExcelApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1451" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,2013" sap2010:WorkflowViewState.IdRef="NApplicationCard_8" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,1148" sap2010:WorkflowViewState.IdRef="Sequence_20">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="468,1710" sap2010:WorkflowViewState.IdRef="Sequence_20">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '复位'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,229" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '复位'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,229" sap2010:WorkflowViewState.IdRef="NClick_16" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="cc546f7e-0d30-4187-bff5-2bde266548ff" ContentHash="fcYEDTvb8EqBGy1cAJ6NKQ" CvElementArea="1442, 775, 141, 68" CvTextArea="1493, 798, 39, 21" CvTextArgument="£{{" CvType="Button" DesignTimeRectangle="1442, 775, 141, 68" ElementType="Button" Guid="66e6d8b0-ec34-4c7a-b288-c31f2ef16dd9" InformativeScreenshot="aa5187d8d77299546142bcc1ea3f5a80.png" Reference="V37UO-nxA0SG182om3oalQ/ZZlw0D5NoU6BT7oCHtO2xg" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
@@ -379,7 +379,7 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 '出厂编号'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="fa83bd96-92f3-460c-80d0-606bb3d20c29" Text="[出厂编号]" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 '出厂编号'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,254" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="fa83bd96-92f3-460c-80d0-606bb3d20c29" Text="[出厂编号]" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CVScreenId="cc546f7e-0d30-4187-bff5-2bde266548ff" ContentHash="IXv8ocoYJ0mkJs_x1BfpXw" CvElementArea="1139, 360, 443, 36" CvType="InputBox" DesignTimeRectangle="1139, 360, 443, 36" ElementType="InputBox" Guid="db61a9ae-ae32-4029-beec-cf6549242bb1" InformativeScreenshot="aa54cacf1cd7089635967d6d9c3b3eb4.png" Reference="V37UO-nxA0SG182om3oalQ/WLTYCSPYO0KwH4qhxPIf0w" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
@@ -390,8 +390,8 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,179" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Info" Message="[出厂编号+“已输入”]" />
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 ‘设置电压’" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="fa83bd96-92f3-460c-80d0-606bb3d20c29" Text="[高压对低压及地]" Version="V4">
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="434,179" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Info" Message="[出厂编号+“已输入”]" />
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 ‘设置电压’" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="434,254" sap2010:WorkflowViewState.IdRef="NTypeInto_7" ScopeIdentifier="fa83bd96-92f3-460c-80d0-606bb3d20c29" Text="[高压对低压及地]" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable CVScreenId="0e69dc25-3bdb-4975-9916-d1e457690b67" ContentHash="JDFOflxFC06zPe49O-tlyg" CvElementArea="558, 401, 229, 42" CvType="InputBox" DesignTimeRectangle="558, 401, 229, 42" ElementType="InputBox" Guid="7cefaa1d-438d-47ac-9171-71421b72cd27" InformativeScreenshot="ee8e4e28d6b03f47dc6c7c0f569dce49.png" Reference="V37UO-nxA0SG182om3oalQ/C9LWm41RX0uVnc8mlHsl3Q" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
@@ -402,7 +402,294 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="416,170" sap2010:WorkflowViewState.IdRef="LogMessage_25" Level="Info" Message="[高压对低压及地+“已输入”]" />
+            <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="434,179" sap2010:WorkflowViewState.IdRef="LogMessage_25" Level="Info" Message="[高压对低压及地+“已输入”]" />
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DisplayName="计算机视觉屏幕作用域 'client  TransfomerTests'" sap:VirtualizedContainerService.HintSize="434,555" sap2010:WorkflowViewState.IdRef="CVScope_7" SendOnPremData="False" Version="V6">
+              <p:CVScope.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="执行" sap2010:WorkflowViewState.IdRef="Sequence_44">
+                    <p:CvSelectItemWithDescriptor DelayScreenshotAfterScroll="{x:Null}" DeselectAfter="{x:Null}" InRegion="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: ArrowButton (1076,290,20,34)&quot; +&#xA;&quot;Anchor: Button (808,348,288,58)&quot; +&#xA;&quot;Anchor: InputBox (807,288,290,36)&quot;]" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DesignTimeScaleFactor="1" DisplayName="CV 下拉菜单选择 - 箭头按钮" EmptyField="False" sap:VirtualizedContainerService.HintSize="400,212" sap2010:WorkflowViewState.IdRef="CvSelectItemWithDescriptor_8" InformativeScreenshot="84cf4b7f8b0f32408377282d6af9aa25" NumberOfScrolls="2" ScrollDirection="None" Text="[“高压对低压及地”]" Version="V6">
+                      <p:CvSelectItemWithDescriptor.DesignTimeDescriptor>
+                        <uc:CvDescriptor Id="c134d15e-3332-417a-894e-2b1b42bf4620">
+                          <uc:CvDescriptor.Anchors>
+                            <x:Array Type="uc:CvElementDescriptor">
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="808, 348, 288, 58" ElementType="Button" />
+                              <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="807, 288, 290, 36" ElementType="InputBox" />
+                            </x:Array>
+                          </uc:CvDescriptor.Anchors>
+                          <uc:CvDescriptor.Target>
+                            <uc:CvElementDescriptor CellExtraInfo="{x:Null}" DesignTimeArea="1076, 290, 20, 34" ElementType="ArrowButton" />
+                          </uc:CvDescriptor.Target>
+                        </uc:CvDescriptor>
+                      </p:CvSelectItemWithDescriptor.DesignTimeDescriptor>
+                      <p:CvSelectItemWithDescriptor.Target>
+                        <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="5d5734a4-3d17-4284-8bdc-fb5ca5a536bd">
+                          <ui:Target.TimeoutMS>
+                            <InArgument x:TypeArguments="x:Int32" />
+                          </ui:Target.TimeoutMS>
+                          <ui:Target.WaitForReady>
+                            <InArgument x:TypeArguments="ui:WaitForReady" />
+                          </ui:Target.WaitForReady>
+                        </ui:Target>
+                      </p:CvSelectItemWithDescriptor.Target>
+                    </p:CvSelectItemWithDescriptor>
+                  </Sequence>
+                </ActivityAction>
+              </p:CVScope.Body>
+              <p:CVScope.DesignTimeCache>
+                <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+              </p:CVScope.DesignTimeCache>
+              <p:CVScope.DesignTimeCacheContainer>
+                <uc:CvCacheContainer>
+                  <uc:CvCacheContainer.Caches>
+                    <scg:List x:TypeArguments="uc:CVCache" Capacity="1">
+                      <uc:CVCache DataSent="False" DisplayName="屏幕 计算机视觉单击 - 'SEEX3ÆR3Tt' (主要)" Id="b316df1e-82bb-42ab-8423-3e0d143ee9b7" InformativeScreenshot="6cbfb2b398abda1b60d6570f9e252f68" LogicalPosition="2226, 151" OcrText="SYBS-100 IMM-3R6t 7E[XJL 50kVA 100kVitRTTR 50kVA 100kV KìñI$msÆEìzt9ZFt īE¿IEPLC...... īł12IéAEJE..... ìt9î¿Æ(kV) 0 ì9J:e3J8ßR{Ì! Kbtìz(Tī#! JR)J=Æ(V) ħ£¿ì(mA) 0 0 {RIA#ET SEEX3ÆR3Tt v JF)2¿ìt(A) ì¿¿ìt(mA) ìĦ¿E(kV) N25070089 0 200 28 {R/ 1 1 ìtR(S) 0.8 0.6 0.4 ìì{9î$8U6I 0.2 I 0 3 -0.2 -0.4 -0.6 SSTJHEE -HEJF¥EE -0.8 -1 0 1 2 ĖEJHE ĖVJF¥EE £{Ì Time(s" Position="2165, 121" ScreenshotGuid="9005af7a-889c-42bd-a23b-9bf03430312c" ServerVersion="24.10.5.1">
+                        <uc:CVCache.CvAnchorRelations>
+                          <scg:List x:TypeArguments="uc:AnchorRelationInfo" Capacity="16">
+                            <uc:AnchorRelationInfo IsTargetText="False" Target="13">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>8</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                            <uc:AnchorRelationInfo IsTargetText="False" Target="8">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>24</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                            <uc:AnchorRelationInfo IsTargetText="False" Target="54">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>19</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                            <uc:AnchorRelationInfo IsTargetText="True" Target="48">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>53</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                            <uc:AnchorRelationInfo IsTargetText="False" Target="15">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>23</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                            <uc:AnchorRelationInfo IsTargetText="False" Target="10">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>22</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                            <uc:AnchorRelationInfo IsTargetText="False" Target="17">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>15</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                            <uc:AnchorRelationInfo IsTargetText="True" Target="25">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>21</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                            <uc:AnchorRelationInfo IsTargetText="True" Target="38">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>37</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                            <uc:AnchorRelationInfo IsTargetText="False" Target="16">
+                              <uc:AnchorRelationInfo.Anchors>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>14</x:Int32>
+                                </x:Array>
+                              </uc:AnchorRelationInfo.Anchors>
+                            </uc:AnchorRelationInfo>
+                          </scg:List>
+                        </uc:CVCache.CvAnchorRelations>
+                        <uc:CVCache.CvTables>
+                          <x:Array Type="uc:CvTableInfo">
+                            <uc:CvTableInfo>
+                              <uc:CvTableInfo.Columns>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>82</x:Int32>
+                                  <x:Int32>576</x:Int32>
+                                  <x:Int32>1075</x:Int32>
+                                </x:Array>
+                              </uc:CvTableInfo.Columns>
+                              <uc:CvTableInfo.Rows>
+                                <x:Array Type="x:Int32">
+                                  <x:Int32>430</x:Int32>
+                                  <x:Int32>468</x:Int32>
+                                  <x:Int32>498</x:Int32>
+                                  <x:Int32>530</x:Int32>
+                                  <x:Int32>563</x:Int32>
+                                  <x:Int32>596</x:Int32>
+                                  <x:Int32>628</x:Int32>
+                                  <x:Int32>662</x:Int32>
+                                  <x:Int32>695</x:Int32>
+                                  <x:Int32>726</x:Int32>
+                                  <x:Int32>762</x:Int32>
+                                </x:Array>
+                              </uc:CvTableInfo.Rows>
+                            </uc:CvTableInfo>
+                          </x:Array>
+                        </uc:CVCache.CvTables>
+                        <uc:CVCache.CvUiElements>
+                          <scg:List x:TypeArguments="uc:CvElementInfo" Capacity="64">
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="808, 348, 288, 58" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="1381, 387, 194, 58" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="1280, 664, 141, 68" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="1280, 742, 142, 68" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="1432, 742, 142, 67" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="1129, 664, 141, 68" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="1128, 742, 142, 68" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="548, 283, 233, 48" />
+                            <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="1130, 327, 442, 37" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="1432, 664, 142, 68" />
+                            <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="287, 368, 228, 42" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="1127, 496, 447, 76" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="1126, 386, 197, 62" />
+                            <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="1134, 112, 430, 175" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="18, 367, 231, 44" />
+                            <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="548, 368, 229, 42" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="18, 285, 232, 44" />
+                            <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="286, 285, 231, 44" />
+                            <uc:CvElementInfo Category="Button" Description="Button" Region="285, 285, 232, 44" />
+                            <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="19, 285, 231, 44" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 430, 494, 38" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 468, 494, 30" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 498, 494, 32" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 530, 494, 33" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 563, 494, 33" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 596, 494, 32" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 628, 494, 34" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 662, 494, 33" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 695, 494, 31" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="82, 726, 494, 36" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 430, 499, 38" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 468, 499, 30" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 498, 499, 32" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 530, 499, 33" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 563, 499, 33" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 596, 499, 32" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 628, 499, 34" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 662, 499, 33" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 695, 499, 31" />
+                            <uc:CvElementInfo Category="Cell" Description="Cell" Region="576, 726, 499, 36" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="29, 554, 23, 31" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="Button" Confidence="Runtime" Region="548, 368, 229, 42" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="InputBox" Confidence="Runtime" Region="19, 367, 231, 44" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="1050, 135, 55, 72" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="InputBox" Confidence="Runtime" Region="17, 113, 1101, 114" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="InputBox" Confidence="Runtime" Region="1126, 385, 198, 62" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="32, 628, 18, 24" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="1071, 770, 17, 19" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="1210, 395, 31, 42" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="ArrowButton" Confidence="Runtime" Region="1071, 771, 16, 17" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="35, 586, 17, 39" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="Button" Confidence="Runtime" Region="287, 367, 229, 43" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="Icon" Confidence="Runtime" Region="557, 287, 69, 38" />
+                            <uc:CvElementInfo Description="{x:Null}" Category="InputBox" Confidence="Runtime" Region="1129, 663, 141, 69" />
+                            <uc:CvElementInfo Category="InputBox" Description="Inputbox" Region="807, 288, 290, 36" />
+                            <uc:CvElementInfo Category="ArrowButton" Description="ArrowButton" Region="1076, 290, 20, 34" />
+                          </scg:List>
+                        </uc:CVCache.CvUiElements>
+                        <uc:CVCache.OcrTexts>
+                          <scg:List x:TypeArguments="uc:OcrTextInfo" Capacity="54">
+                            <uc:OcrTextInfo Region="1, 9, 86, 19" Text="SYBS-100" />
+                            <uc:OcrTextInfo Region="94, 7, 112, 24" Text="IMM-3R6t" />
+                            <uc:OcrTextInfo Region="1305, 12, 58, 20" Text="7E[XJL" />
+                            <uc:OcrTextInfo Region="1370, 12, 59, 19" Text="50kVA" />
+                            <uc:OcrTextInfo Region="1437, 11, 147, 21" Text="100kVitRTTR" />
+                            <uc:OcrTextInfo Region="21, 57, 89, 28" Text="50kVA" />
+                            <uc:OcrTextInfo Region="123, 57, 85, 27" Text="100kV" />
+                            <uc:OcrTextInfo Region="219, 56, 286, 32" Text="KìñI$msÆEìzt9ZFt" />
+                            <uc:OcrTextInfo Region="1140, 118, 142, 22" Text="īE¿IEPLC......" />
+                            <uc:OcrTextInfo Region="1140, 143, 203, 23" Text="īł12IéAEJE....." />
+                            <uc:OcrTextInfo Region="34, 154, 186, 37" Text="ìt9î¿Æ(kV)" />
+                            <uc:OcrTextInfo Region="1052, 135, 49, 73" Text="0" />
+                            <uc:OcrTextInfo Region="1139, 169, 164, 22" Text="ì9J:e3J8ßR{Ì!" />
+                            <uc:OcrTextInfo Region="1139, 193, 124, 23" Text="Kbtìz(Tī#!" />
+                            <uc:OcrTextInfo Region="20, 261, 99, 22" Text="JR)J=Æ(V)" />
+                            <uc:OcrTextInfo Region="287, 261, 117, 21" Text="ħ£¿ì(mA)" />
+                            <uc:OcrTextInfo Region="125, 294, 18, 26" Text="0" />
+                            <uc:OcrTextInfo Region="391, 294, 19, 26" Text="0" />
+                            <uc:OcrTextInfo Region="627, 295, 75, 22" Text="{}{RIA#ET" />
+                            <uc:OcrTextInfo Region="812, 295, 150, 23" Text="SEEX3ÆR3Tt" />
+                            <uc:OcrTextInfo Region="1079, 301, 11, 8" Text="v" />
+                            <uc:OcrTextInfo Region="20, 342, 100, 23" Text="JF)2¿ìt(A)" />
+                            <uc:OcrTextInfo Region="287, 342, 117, 23" Text="ì¿¿ìt(mA)" />
+                            <uc:OcrTextInfo Region="548, 342, 109, 23" Text="ìĦ¿E(kV)" />
+                            <uc:OcrTextInfo Region="1138, 334, 123, 22" Text="N25070089" />
+                            <uc:OcrTextInfo Region="125, 376, 18, 26" Text="0" />
+                            <uc:OcrTextInfo Region="376, 376, 50, 26" Text="200" />
+                            <uc:OcrTextInfo Region="645, 376, 34, 26" Text="28" />
+                            <uc:OcrTextInfo Region="931, 366, 42, 23" Text="{}{R/" />
+                            <uc:OcrTextInfo Region="68, 429, 7, 12" Text="1" />
+                            <uc:OcrTextInfo Region="1214, 399, 17, 34" Text="1" />
+                            <uc:OcrTextInfo Region="1430, 400, 94, 34" Text="ìtR(S)" />
+                            <uc:OcrTextInfo Region="57, 462, 19, 12" Text="0.8" />
+                            <uc:OcrTextInfo Region="58, 494, 19, 12" Text="0.6" />
+                            <uc:OcrTextInfo Region="57, 527, 20, 12" Text="0.4" />
+                            <uc:OcrTextInfo Region="1285, 521, 130, 25" Text="ìì{9î$8U6I" />
+                            <uc:OcrTextInfo Region="57, 560, 20, 12" Text="0.2" />
+                            <uc:OcrTextInfo Region="34, 587, 16, 40" Text="I" />
+                            <uc:OcrTextInfo Region="67, 593, 10, 12" Text="0" />
+                            <uc:OcrTextInfo Region="32, 625, 17, 29" Text="3" />
+                            <uc:OcrTextInfo Region="53, 624, 24, 13" Text="-0.2" />
+                            <uc:OcrTextInfo Region="53, 657, 24, 13" Text="-0.4" />
+                            <uc:OcrTextInfo Region="53, 691, 23, 12" Text="-0.6" />
+                            <uc:OcrTextInfo Region="1161, 686, 76, 22" Text="SSTJHEE" />
+                            <uc:OcrTextInfo Region="1313, 686, 75, 22" Text="-HEJF¥EE" />
+                            <uc:OcrTextInfo Region="53, 723, 23, 12" Text="-0.8" />
+                            <uc:OcrTextInfo Region="63, 756, 12, 12" Text="-1" />
+                            <uc:OcrTextInfo Region="79, 772, 10, 12" Text="0" />
+                            <uc:OcrTextInfo Region="577, 772, 8, 12" Text="1" />
+                            <uc:OcrTextInfo Region="1075, 772, 9, 12" Text="2" />
+                            <uc:OcrTextInfo Region="1162, 765, 75, 22" Text="ĖEJHE" />
+                            <uc:OcrTextInfo Region="1314, 765, 75, 22" Text="ĖVJF¥EE" />
+                            <uc:OcrTextInfo Region="1483, 765, 39, 22" Text="£{Ì" />
+                            <uc:OcrTextInfo Region="551, 791, 56, 17" Text="Time(s" />
+                          </scg:List>
+                        </uc:CVCache.OcrTexts>
+                      </uc:CVCache>
+                    </scg:List>
+                  </uc:CvCacheContainer.Caches>
+                </uc:CvCacheContainer>
+              </p:CVScope.DesignTimeCacheContainer>
+              <p:CVScope.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                  <p1:UiPathScreenOCR ApiKey="{x:Null}" Endpoint="{x:Null}" Output="{x:Null}" PredictionId="{x:Null}" Text="{x:Null}" UseAccents="{x:Null}" UseLocalServer="{x:Null}" ComputeSkewAngle="False" ExtractWords="True" sap:VirtualizedContainerService.HintSize="400,25" sap2010:WorkflowViewState.IdRef="UiPathScreenOCR_7" Image="[Image]" Language="en" NoopExecution="False" Profile="Screen" Scale="1" Timeout="100000" />
+                </ActivityFunc>
+              </p:CVScope.OCREngine>
+              <p:CVScope.Target>
+                <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="54f8aaf0-e02b-4076-904b-6884a73612a3" InformativeScreenshot="f24e679bc5b53da29358b41409f86450" Selector="&lt;ctrl name='TransfomerTests' role='client' /&gt;" WaitForReady="INTERACTIVE">
+                  <ui:Target.TimeoutMS>
+                    <InArgument x:TypeArguments="x:Int32" />
+                  </ui:Target.TimeoutMS>
+                </ui:Target>
+              </p:CVScope.Target>
+              <p:CVScope.UseLocalServer>
+                <InArgument x:TypeArguments="x:Boolean" />
+              </p:CVScope.UseLocalServer>
+            </p:CVScope>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -410,7 +697,7 @@
         <uix:TargetApp Area="-183, 14, 2025, 1094" ContentHash="x_4EkKlMbUy0f_Ftn65xTg" FilePath="D:\试验软件\山东双益工频耐压西区（1拖2）\gptest.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAURSURBVFhH5ZY9aBtJGIa3cLGFiy1SqEgRwRUnuMZwxQnSeMGFB1x4QIUGUoRhCzFsIQYXZnBjFhdGuDDChREuDJvC4BQGuQjomoBSBHSdSrUuXbqc450/rVZKcpfq4AZeFo2++d5nfnb2i6L/QhNHSvK+KnmuSvPsq1JAR6oUx0UpoZOilKeDUkFnVsX5cE0Kcv8jFmPM2OPC5BJHkPFQ3nzE+0qzTC7Vk5pDudL4T0BHSovjQkvoxGug1alV6HMx4giyY02e3OZEbqNMPnmABYJgzE8GWtyMtbyZaHlb04eJVkZTre5WxW8nmt9Otfo40+rB6XG+UfJxYXxYJp89wDQAnI20/LTQ6s+noOLzUgPoy7oQJx4Xq/2VcZDPh/zibGRWwQL01X11BSyAhdho/HWDvtjE4f8KSICoApxbAJbJBABD7JUBOCrWAIL51yc9/I5M7JfVvjqEyQuAi9IDNAGgAkCuAgCIfdJq4tFfm+Xj/O8ViDrA5b0/jK2I95XwAOjEIUFQAYjarOqmdVUB6hArAFcOIJMpAKg/A5B8mG8EGFUAym9oDXIFwK6sOQPXYw9AI56rtrkHbIeWd9PlNny2B6sKUDetysRUIQDgt8DNHitcAeARz2XTXBK5BRB45yvbMPi8MEnWktdm6oVYs/TG2OYIxg9zzT/ONbsKAAIAib31LAC/ujdBCJa4PCogFuYHcnHevMBq4gJ6mGsB87u5ZtcTByAKcxfwnnzxAOy81OzDzASb81CFqIBslI8xb9G6Ob+bmdxLADn0AE/mngYAbqnbmeZ1iMe5Lj5BNvH3Vbl6a+b0dqbp9dR+FzJZeoBZADgZanozXULczbT0IBWYjfIx2D4IW3ln80DIidzkauIB7j3AOAAcDzS5nq5BWJCqYFDvW8bWjdnN1MwcuQ1AjldfTA0A68mRB8B1TK5ssIG4wdcOcjAb5I2CEHuLCdjxJpczJpcTnV5OzGeeZWJuATJZBIC+MgEm+GoSBiPRv5EfR5HjEhprejHW9Pxe07PSrYCrCVgmZQDIlU4vLCVoAwhWxTxtMnZxr9k5VJqDi085P4WGWqCugOqFiSlOKoWJrwlYTzJ/E5rnydAIn2d+7BI5+YrIV0LqrCZUR75C8uMAUQEIXu9FAEhD5zdLsmo5tizFqsa+NAuGuZqLvhrxXA14LgXHRDOZsky2WCYaxtxtQWtlBQKAg8jVs+irOco3u1UCeuE9yVkmKO3yNumwJu3ymHXZjBwyTTtMs3d8EEx+1EiHtUiHsfSAQqS9S1rtXdJo75LYx9AOY0hs1OV65492+K/RaMTNN82YHJAxz4SdQM9dND/TkiSJ4+0YLfFqvmky4Q4RnvF23I6iqBVF0Y7RVpSme2QSquhcLmiHStphy+X+QUuiKGq6hEgOpdFWROPtmDdeN0z5Zgzwuu6ms/bb9jzdS5/IPnkhB0SzLnNb50B7XIueQP+YHBBSN6w3AMCcJq+SAdknz+luCiOd7tknlpe9F9hfTQ6phinZdzogmh5SA8HemTOg+XuuebYU67JFHMffXRHsKyB485fmmHboizdf015qDGnHmTphDDkw8Iud33emrV9b48brxih5lRTxdsxwZOqm623LrcZWJNtv2zPMxMyqy17oIX1O99IF+lu/tSaN140ySZJBHMcCq2e2LYp24jhuRltRI96OE5ynusU/ajiF7qCBnOOFcWejBQNzQHFYf9bgf9/+Bsmx5EvFbflhAAAAAElFTkSuQmCC" InformativeScreenshot="e9426492777e57dd1ccca771d7be6530.png" Reference="V37UO-nxA0SG182om3oalQ/gVO0PK2F6UWsnV2WWbs7-Q" Selector="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,517" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[可否继续 &lt;&gt;&quot;是，请进行下一项试验&quot;]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,517" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_1">
       <ui:InterruptibleDoWhile.Body>
         <Sequence DisplayName="正文" sap:VirtualizedContainerService.HintSize="416,385" sap2010:WorkflowViewState.IdRef="Sequence_21">
           <sap:WorkflowViewStateService.ViewState>
@@ -425,17 +712,14 @@
           </ui:InputDialog>
         </Sequence>
       </ui:InterruptibleDoWhile.Body>
-      <ui:InterruptibleDoWhile.Condition>
-        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="可否继续 &lt;&gt;&quot;是，请进行下一项试验&quot;" />
-      </ui:InterruptibleDoWhile.Condition>
     </ui:InterruptibleDoWhile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1580" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1582" sap2010:WorkflowViewState.IdRef="NApplicationCard_9" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="468,1277" sap2010:WorkflowViewState.IdRef="Sequence_22">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="468,1279" sap2010:WorkflowViewState.IdRef="Sequence_22">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -474,14 +758,14 @@
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
             <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="434,179" sap2010:WorkflowViewState.IdRef="LogMessage_28" Level="Info" Message="[低压对高压及地+“已输入”]" />
-            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DisplayName="计算机视觉屏幕作用域 'client  TransfomerTests'" sap:VirtualizedContainerService.HintSize="434,553" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DisplayName="计算机视觉屏幕作用域 'client  TransfomerTests'" sap:VirtualizedContainerService.HintSize="434,555" sap2010:WorkflowViewState.IdRef="CVScope_1" SendOnPremData="False" Version="V6">
               <p:CVScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
                   </ActivityAction.Argument>
                   <Sequence DisplayName="执行" sap2010:WorkflowViewState.IdRef="Sequence_23">
-                    <p:CvSelectItemWithDescriptor DelayScreenshotAfterScroll="{x:Null}" DeselectAfter="{x:Null}" InRegion="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: ArrowButton (1076,290,20,34)&quot; +&#xD;&#xA;&quot;Anchor: Button (808,348,288,58)&quot; +&#xD;&#xA;&quot;Anchor: InputBox (807,288,290,36)&quot;]" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DesignTimeScaleFactor="1" DisplayName="CV 下拉菜单选择 - 箭头按钮" EmptyField="False" sap:VirtualizedContainerService.HintSize="400,212" sap2010:WorkflowViewState.IdRef="CvSelectItemWithDescriptor_2" InformativeScreenshot="84cf4b7f8b0f32408377282d6af9aa25" NumberOfScrolls="2" ScrollDirection="None" Text="[“低压对高压及地”]" Version="V6">
+                    <p:CvSelectItemWithDescriptor DelayScreenshotAfterScroll="{x:Null}" DeselectAfter="{x:Null}" InRegion="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: ArrowButton (1076,290,20,34)&quot; +&#xA;&quot;Anchor: Button (808,348,288,58)&quot; +&#xA;&quot;Anchor: InputBox (807,288,290,36)&quot;]" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DesignTimeScaleFactor="1" DisplayName="CV 下拉菜单选择 - 箭头按钮" EmptyField="False" sap:VirtualizedContainerService.HintSize="400,212" sap2010:WorkflowViewState.IdRef="CvSelectItemWithDescriptor_2" InformativeScreenshot="84cf4b7f8b0f32408377282d6af9aa25" NumberOfScrolls="2" ScrollDirection="None" Text="[“低压对高压及地”]" Version="V6">
                       <p:CvSelectItemWithDescriptor.DesignTimeDescriptor>
                         <uc:CvDescriptor Id="c134d15e-3332-417a-894e-2b1b42bf4620">
                           <uc:CvDescriptor.Anchors>
@@ -509,6 +793,9 @@
                   </Sequence>
                 </ActivityAction>
               </p:CVScope.Body>
+              <p:CVScope.DesignTimeCache>
+                <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+              </p:CVScope.DesignTimeCache>
               <p:CVScope.DesignTimeCacheContainer>
                 <uc:CvCacheContainer>
                   <uc:CvCacheContainer.Caches>
@@ -2201,13 +2488,13 @@
         </Sequence>
       </ui:InterruptibleDoWhile.Body>
     </ui:InterruptibleDoWhile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1580" sap2010:WorkflowViewState.IdRef="NApplicationCard_14" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="TransfomerTests" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1582" sap2010:WorkflowViewState.IdRef="NApplicationCard_14" ScopeGuid="fa83bd96-92f3-460c-80d0-606bb3d20c29" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="468,1277" sap2010:WorkflowViewState.IdRef="Sequence_38">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="468,1279" sap2010:WorkflowViewState.IdRef="Sequence_38">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2246,7 +2533,7 @@
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
             <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="434,179" sap2010:WorkflowViewState.IdRef="LogMessage_33" Level="Info" Message="[三线圈对高压低压+“已输入”]" />
-            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DisplayName="计算机视觉屏幕作用域 'client  TransfomerTests'" sap:VirtualizedContainerService.HintSize="434,553" sap2010:WorkflowViewState.IdRef="CVScope_6" SendOnPremData="False" Version="V6">
+            <p:CVScope ContinueOnError="{x:Null}" DelayBefore="{x:Null}" ScopeId="{x:Null}" ScrollOffset="{x:Null}" Server="{x:Null}" CvMethod="ElementDetection, OCR" DesignTimeCacheId="b316df1e-82bb-42ab-8423-3e0d143ee9b7" DisplayName="计算机视觉屏幕作用域 'client  TransfomerTests'" sap:VirtualizedContainerService.HintSize="434,555" sap2010:WorkflowViewState.IdRef="CVScope_6" SendOnPremData="False" Version="V6">
               <p:CVScope.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
@@ -2540,7 +2827,7 @@
         <uix:TargetApp Area="-183, 14, 2025, 1094" ContentHash="x_4EkKlMbUy0f_Ftn65xTg" FilePath="D:\试验软件\山东双益工频耐压西区（1拖2）\gptest.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAURSURBVFhH5ZY9aBtJGIa3cLGFiy1SqEgRwRUnuMZwxQnSeMGFB1x4QIUGUoRhCzFsIQYXZnBjFhdGuDDChREuDJvC4BQGuQjomoBSBHSdSrUuXbqc450/rVZKcpfq4AZeFo2++d5nfnb2i6L/QhNHSvK+KnmuSvPsq1JAR6oUx0UpoZOilKeDUkFnVsX5cE0Kcv8jFmPM2OPC5BJHkPFQ3nzE+0qzTC7Vk5pDudL4T0BHSovjQkvoxGug1alV6HMx4giyY02e3OZEbqNMPnmABYJgzE8GWtyMtbyZaHlb04eJVkZTre5WxW8nmt9Otfo40+rB6XG+UfJxYXxYJp89wDQAnI20/LTQ6s+noOLzUgPoy7oQJx4Xq/2VcZDPh/zibGRWwQL01X11BSyAhdho/HWDvtjE4f8KSICoApxbAJbJBABD7JUBOCrWAIL51yc9/I5M7JfVvjqEyQuAi9IDNAGgAkCuAgCIfdJq4tFfm+Xj/O8ViDrA5b0/jK2I95XwAOjEIUFQAYjarOqmdVUB6hArAFcOIJMpAKg/A5B8mG8EGFUAym9oDXIFwK6sOQPXYw9AI56rtrkHbIeWd9PlNny2B6sKUDetysRUIQDgt8DNHitcAeARz2XTXBK5BRB45yvbMPi8MEnWktdm6oVYs/TG2OYIxg9zzT/ONbsKAAIAib31LAC/ujdBCJa4PCogFuYHcnHevMBq4gJ6mGsB87u5ZtcTByAKcxfwnnzxAOy81OzDzASb81CFqIBslI8xb9G6Ob+bmdxLADn0AE/mngYAbqnbmeZ1iMe5Lj5BNvH3Vbl6a+b0dqbp9dR+FzJZeoBZADgZanozXULczbT0IBWYjfIx2D4IW3ln80DIidzkauIB7j3AOAAcDzS5nq5BWJCqYFDvW8bWjdnN1MwcuQ1AjldfTA0A68mRB8B1TK5ssIG4wdcOcjAb5I2CEHuLCdjxJpczJpcTnV5OzGeeZWJuATJZBIC+MgEm+GoSBiPRv5EfR5HjEhprejHW9Pxe07PSrYCrCVgmZQDIlU4vLCVoAwhWxTxtMnZxr9k5VJqDi085P4WGWqCugOqFiSlOKoWJrwlYTzJ/E5rnydAIn2d+7BI5+YrIV0LqrCZUR75C8uMAUQEIXu9FAEhD5zdLsmo5tizFqsa+NAuGuZqLvhrxXA14LgXHRDOZsky2WCYaxtxtQWtlBQKAg8jVs+irOco3u1UCeuE9yVkmKO3yNumwJu3ymHXZjBwyTTtMs3d8EEx+1EiHtUiHsfSAQqS9S1rtXdJo75LYx9AOY0hs1OV65492+K/RaMTNN82YHJAxz4SdQM9dND/TkiSJ4+0YLfFqvmky4Q4RnvF23I6iqBVF0Y7RVpSme2QSquhcLmiHStphy+X+QUuiKGq6hEgOpdFWROPtmDdeN0z5Zgzwuu6ms/bb9jzdS5/IPnkhB0SzLnNb50B7XIueQP+YHBBSN6w3AMCcJq+SAdknz+luCiOd7tknlpe9F9hfTQ6phinZdzogmh5SA8HemTOg+XuuebYU67JFHMffXRHsKyB485fmmHboizdf015qDGnHmTphDDkw8Iud33emrV9b48brxih5lRTxdsxwZOqm623LrcZWJNtv2zPMxMyqy17oIX1O99IF+lu/tSaN140ySZJBHMcCq2e2LYp24jhuRltRI96OE5ynusU/ajiF7qCBnOOFcWejBQNzQHFYf9bgf9/+Bsmx5EvFbflhAAAAAElFTkSuQmCC" InformativeScreenshot="e9426492777e57dd1ccca771d7be6530.png" Reference="V37UO-nxA0SG182om3oalQ/gVO0PK2F6UWsnV2WWbs7-Q" Selector="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,517" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_8">
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[可否继续 &lt;&gt;&quot;是，请继续&quot;]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,517" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_8">
       <ui:InterruptibleDoWhile.Body>
         <Sequence DisplayName="正文" sap:VirtualizedContainerService.HintSize="416,385" sap2010:WorkflowViewState.IdRef="Sequence_41">
           <sap:WorkflowViewStateService.ViewState>
@@ -2555,17 +2842,14 @@
           </ui:InputDialog>
         </Sequence>
       </ui:InterruptibleDoWhile.Body>
-      <ui:InterruptibleDoWhile.Condition>
-        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="可否继续 &lt;&gt;&quot;是，请继续&quot;" />
-      </ui:InterruptibleDoWhile.Condition>
     </ui:InterruptibleDoWhile>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="excel服务器" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1785" sap2010:WorkflowViewState.IdRef="NApplicationCard_16" ScopeGuid="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="excel服务器" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,1789" sap2010:WorkflowViewState.IdRef="NApplicationCard_16" ScopeGuid="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,1482" sap2010:WorkflowViewState.IdRef="Sequence_39">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,1486" sap2010:WorkflowViewState.IdRef="Sequence_39">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -2576,7 +2860,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="b34fce9d-f335-42fc-ac5f-501c50a63e36" ContentHash="rG76H_9JHEOqcCLp9lpfYg" CvTextArea="143, 126, 91, 20" CvTextArgument="FEA9IRES" CvType="Text" DesignTimeRectangle="128, 117, 125, 38" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;ctrl name='我的工作台' role='page tab' /&gt;" Guid="7cb555a2-3e47-440e-8ddf-abca44eba18d" InformativeScreenshot="b281f13fb5847ad1b5bc2818524ef3b1.png" Reference="V37UO-nxA0SG182om3oalQ/QGJOQDwapkmkf1IIeq5-AQ" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="b34fce9d-f335-42fc-ac5f-501c50a63e36" CvElementArea="4, 115, 128, 42" CvTextArea="48, 127, 37, 18" CvTextArgument="NM1" CvType="Button" DesignTimeRectangle="3, 117, 125, 38" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='首页' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='首页' /&gt;" Guid="258a404f-dfac-4f54-aecf-f83de1b686fb" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -2618,7 +2902,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="gsYSAagBf0GAZ-OhHcOihQ" DesignTimeRectangle="90, 646, 50, 27" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tv' /&gt;&lt;wnd ctrlname='pnlTv' /&gt;&lt;wnd ctrlname='MyTree1' /&gt;&lt;ctrl name='试验站' role='outline item' /&gt;" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='pnlTv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='MyTree1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='试验站' role='outline item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='试验站' /&gt;" Guid="5a6c83cb-2900-452e-ac81-88c7a0e91c3e" InformativeScreenshot="6ec03b11e78a3c43f5eefb34aab2e394.png" Reference="V37UO-nxA0SG182om3oalQ/skmYVqfC1ku2kswAyR56Cg" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="05d38c8b-62b6-41de-8d36-147aa2fb889f" CvTextArea="63, 540, 63, 17" CvTextArgument="BAPO" CvType="Text" DesignTimeRectangle="63, 536, 65, 27" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='pnlTv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='MyTree1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='质量中心' role='outline item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='质量中心' /&gt;" Guid="f3d6ee1a-2b45-4945-8526-452d6fd89c70" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -2660,7 +2944,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="470c3ca2-5527-4e0d-9f3a-5d6a73e367a7" ContentHash="N3a8vVXrGUChMmc4YQaBHQ" CvTextArea="145, 760, 238, 17" CvTextArgument="BCP9-IBSSEBRIANOTAntee" CvType="Text" DesignTimeRectangle="142, 756, 244, 27" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tv' /&gt;&lt;wnd ctrlname='pnlTv' /&gt;&lt;wnd ctrlname='MyTree1' /&gt;&lt;ctrl name='BCP9-绝缘电阻测量和工频耐压试验' role='outline item' /&gt;" Guid="3702002c-c2fe-4f0f-aa39-def9487dfcb4" InformativeScreenshot="9ae29c186c17cc10ac5546ae3e26e0dc.png" Reference="V37UO-nxA0SG182om3oalQ/ArTItui5hEGe7Ez0mHP_MQ" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="116, 508, 65, 28" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='pnlTv' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='MyTree1' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl automationid='' name='业务单据' role='outline item' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:text='业务单据' /&gt;" Guid="ffb9b9ff-a6ca-4fe3-81fc-6bd314c7dc4e" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -2677,11 +2961,11 @@
                 </uix:VerifyExecutionOptions>
               </uix:NClick.VerifyOptions>
             </uix:NClick>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '新建'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V4">
+            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 '新建'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="cd36f3da-82b8-4ad4-99a9-02ad9bb3b0f7" Version="V4">
               <uix:NClick.Target>
                 <uix:TargetAnchorable ContentHash="RN3yCJJp2UiFk_4gYNI6wQ" DesignTimeRectangle="581, 196, 65, 34" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd ctrlname='uo_Data' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='sptV' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;wnd ctrlname='tbGrd' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='新建' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="8d183c81-d9f2-4b7c-ac1a-2edf683ae40e" InformativeScreenshot="f37875ec6219eeaa3b24e6fdf9f845c5.png" Reference="V37UO-nxA0SG182om3oalQ/sOMPB0MBZ0SL1P13831lVw" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target DesignTimeRectangle="253, 117, 125, 38" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='文档管理' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='文档管理' /&gt;" Guid="2bb3fd11-9d67-4a4e-bc7c-be99d98c0041" SearchSteps="FuzzySelector" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -2705,19 +2989,19 @@
         <uix:TargetApp Area="0, 0, 1920, 1020" ContentHash="RqTYJv1TmEm5q3DIB7gHWw" FilePath="C:\Program Files\Cesoft\Excel Server 2022 Client\es2012.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAN+SURBVFhH7ZZNaFRXFMf/mUnSEGqhWlIolLSioqYlIsZ+KmmoEr8KIRCErGooqAHRTXBRoRsptNDShTam2EIWUTdKg1XcKF2USF3YKEpwEyklAQu1TE1ivvzJmbkzc9+dZzLpRFceOMybd+89/9+799xzr5jDenp6kFSSz2dz9igVoKGhIQxZYIsGUClRnkjknl+V+PBpApRL1EpslzgucV7iN4lRiX8kjko0LjbAe05sUOKBE5qydfZ8TGK9679oS/CxxJ+BkO8piUsSpyTaPeCSAU53d3Ms5ivNH0lclPhaYk0ySbXES8EylQZw4QKjTU3MBsL3Jf6Q+FHibYkXY/KjdIBr12Dp0ojwfxI/S9RJJGPE4vz/Ady8CbW1EfHbEvUxAvP5wgF6e2Hduoj4dYmqmODF+MIA+vth1aqI+GB1NW/GBI7zCok3JFokPpFILBhg48aIOFVVnG5uLhAK3apet9v//vhfDaZogOnpgqSjr4+eEycKBH23vPglEPb9fn19qFdgGYCurujgHTtgdragEvre6XaGFaH9Eh9IbJUY8eI8rKmBmZlQM2JKd7CO2YGJBAwOphufBPCpxLTEFVcL/LZeF2dc4vOilsCmf+XKPMDmzbnGOAATtPW+IfFy0PaWxLATbw2TcGwMJiZgfDw9u1nLLMHOnXmAZcvgzp306ziALyUmnVj23QsSXRIT7oB6x73funo1XL0KjY1QWZnxigqoq4N79zyA4WEoL89D7NkTC1AmMSQx4L07IPGXG/e3tySvSNxNJqGsLJpfWT982AMw27cv2mHTJn7o7EyLZsWsIP3rBD9zW80OJTus+l2ZtmVpk/JniM1CRwecOQPt7fn4ra0BwOgoNDUVkFpW/yTRLLHcrbHfflbiC3cBMVFb/4fu+eiKFTA5mYmfSsHatfmxR44EAGZTU3DuHLS1ZXLBE7IvtaC27b6XuOz+h253h9fdjOWScGQErCZk4+3eDUNDMQC+pVL8fugQ30rpO8E3Eh0SrwVJOZe/b1988iTYTJiwJaDVHNsJzp4MEJOExfgSdyvyZyVdZffuhVu3QonSAWpcYfpOos9Lvpnsc0sLDAyEoXNWEoDdjLe5JM19rfs9KLGlqEo4h80HkIUwMRP9SmKD17aw4zjG5gOwu8IuiXfdFg3bnyqAFaWP3H0gbHsmAMX4c4BiAB4DoDzBul59HfMAAAAASUVORK5CYII=" InformativeScreenshot="cc3e70ab5518201794d9fa0b6c0b6e52.png" Reference="V37UO-nxA0SG182om3oalQ/Dz1cr6lx8Ue2PEyYWAXpdg" Selector="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,839" sap2010:WorkflowViewState.IdRef="NApplicationCard_17" ScopeGuid="ac8627e8-8de1-463b-94eb-f202f96701e7" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,608" sap2010:WorkflowViewState.IdRef="NApplicationCard_17" ScopeGuid="ac8627e8-8de1-463b-94eb-f202f96701e7" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,536" sap2010:WorkflowViewState.IdRef="Sequence_40">
+          <Sequence DisplayName="执行" sap:VirtualizedContainerService.HintSize="450,305" sap2010:WorkflowViewState.IdRef="Sequence_40">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 '出厂编号'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,254" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="ac8627e8-8de1-463b-94eb-f202f96701e7" Text="[出厂编号]" Version="V4">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="输入信息 '出厂编号'" EmptyFieldMode="None" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,245" sap2010:WorkflowViewState.IdRef="NTypeInto_16" ScopeIdentifier="ac8627e8-8de1-463b-94eb-f202f96701e7" Text="[出厂编号 + &quot;[k(Enter)]&quot;]" Version="V4">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable ContentHash="F6z7F2P0K0-1r7stZysYpA" DesignTimeRectangle="43, 372, 112, 36" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='A3' cls='XLSpreadsheetCell' name='A3' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='A3' /&gt;" Guid="fc991536-2042-4be5-88da-c60a99bf1211" InformativeScreenshot="f582658d3547e3b22f5aa770a7a70bd6.png" Reference="V37UO-nxA0SG182om3oalQ/s8GjR58j1UmyZDKehRLvqg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
@@ -2728,27 +3012,6 @@
                 </uix:TargetAnchorable>
               </uix:NTypeInto.Target>
             </uix:NTypeInto>
-            <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="单击 'I'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,222" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="ac8627e8-8de1-463b-94eb-f202f96701e7" Version="V4">
-              <uix:NClick.Target>
-                <uix:TargetAnchorable ContentHash="a7hE4tSHK0ui-yj9MhPQYA" DesignTimeRectangle="939, 306, 112, 33" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia automationid='I1' cls='XLSpreadsheetCell' name='I1' role='项' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' check:fulltext='I1' /&gt;" Guid="bf088569-04cd-4324-954b-47ad12b572cd" InformativeScreenshot="884a5a973c6f521ba7da98b33d7aa660.png" Reference="V37UO-nxA0SG182om3oalQ/WRkiEQFFXk67NomMKaXEfA" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-                  <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
-                      <uix:Target CVScreenId="9946a32c-ca0c-4e4a-86dc-78399fa78727" CvTextArea="989, 286, 10, 15" CvTextArgument="I" CvType="Text" DesignTimeRectangle="939, 282, 112, 24" FuzzySelectorArgument="&lt;uia automationid='Grid' cls='XLSpreadsheetGrid' name='网格' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;uia cls='XLGridColumnHeader' name='I' role='列标题' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:fulltext='I' /&gt;" Guid="f8e29f13-359b-43a9-890d-1979a8261b01" SearchSteps="FuzzySelector, CV" />
-                    </scg:List>
-                  </uix:TargetAnchorable.Anchors>
-                </uix:TargetAnchorable>
-              </uix:NClick.Target>
-              <uix:NClick.VerifyOptions>
-                <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                  <uix:VerifyExecutionOptions.Retry>
-                    <InArgument x:TypeArguments="x:Boolean" />
-                  </uix:VerifyExecutionOptions.Retry>
-                  <uix:VerifyExecutionOptions.Timeout>
-                    <InArgument x:TypeArguments="x:Double" />
-                  </uix:VerifyExecutionOptions.Timeout>
-                </uix:VerifyExecutionOptions>
-              </uix:NClick.VerifyOptions>
-            </uix:NClick>
           </Sequence>
         </ActivityAction>
       </uix:NApplicationCard.Body>
@@ -2756,7 +3019,7 @@
         <uix:TargetApp Area="-9, -9, 1938, 1038" ContentHash="J-0WwKnjskCwoQEyzh3T8g" FilePath="C:\Program Files\Microsoft Office\root\Office16\excel.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAQiSURBVFhH7dhLTFxVGAfwU6PGhpl7Zy7MHXDRFlzY1IYWhhlKYQoUCnXAaaEQW18bxfKqtrRlgL5meA2wcaFtTVNrizZqY4JGY+urprFx5aKyVBNlobiyJi5c/s05d+65M4c7dAZPZ0H8kn/CzOTm++U7534LCFkltYYQ8kCOk3GtKZ7t+rj4nZexkvhux1aWb6MfiZB0tVZsmk2WNM4ihJAHRYxdqWLTbCI2zSaEEIeIsSuX2DSbiE2zCSFEEzF29T8wXVYPcMNbL2LZXDJSfKULxbOSgUUzbXNF020omt6Lwqk9RuJheGkmn2LRJ1qNjLfAMx6CZ4zmSRSM0uxGQawZ+bFmeKfCBnS2SyKQwRK4eFjA3QM2asDyo03Ij+6CdmYX1CPVcA3XwnWynkU88mzCgPZTS8AmWlJwBQyXBItRWBODaWca4T7dCPVwNdTBHXCdqJMEzPg4KWx3AmZMLRnmPt0A96mdUPqroB6tgWtEEtAbXwp74doYZm5dxcytd1F3oS/lno3cOI/pb2Yxcv1cAmfAXDQn66H0VkIdkAkU79l4CPUX+mHW7V9/4BN7/v0o/374s7Nwn0rg6H07QVMHZ49kYLp79t6dLzgmfPkYO86Fu38Y6F/uJGAmrg7qCE2tfKDt2xlrRsl0O/76528O6pub4eDg2S4OoxAKU4droQ7tgLM7IBlos8/MF4DeM7NM7LnvPjRgbGoWjCUSlA9cfm00YH7xZ45cuLuI9WOt/Dg5LhKEMhiEcrwGzoOSgfYw6+2kqOQprhttSYGpFDZYw3DKsWpoHVuhd5Sj8JkACp+r5At7JTGAHGZNzVwbUzcvc5h5xFe/vw41Yk7NgilHt7NoHVvkAu1g9MfgGy/xycW/ehtDn7zOP4fePGTBEjjnQBWcR6qg7ZMMZDATl7Q25n//iWEW/lzEumiITYz+TWv+tx+tqQ1sZzDn4W0s8oE2+2zoU2taPdcm+T3r/mCCfz/5+UU+NYZ7tRLOVwLygSYseW3Q44x/eYkl9Z5VM9jkjYuIzL2WAnMcCsDR74fWXioZmLzPhq19Zq4Nu3tmwSrhZDAD5+irkA9Mt8+U4xZMvGfi1CjM0VsBR48P7rZS6J0ygWn2GYctmZoNrNeHvJ5y5HWXQWt5QjIwEpwT71m64+QwjvPBwWDlyDtYBsf+zcgPbYbe6ePA/xIGzKBcin89ls8GqFUlcO98HJ7wFnifrkDhszkEag0bsWwaN0Jr2oSC1lLo+8rhPeBf0mwlyRjo2bMVabM3kfYy6B0+ePf7pUyPJmMgbXrPHPDDS++dJBxNxkDxwVxl1QBV8cFcJVPgWr3Td1N8+H5H7/R9TQhRRIxdPUQIKSGEBAgh23IU2usxQsjDIsau6H/4HyGEeAghRYSQR+9zaA+dnhzt/S8bdOXkP86XLAAAAABJRU5ErkJggg==" InformativeScreenshot="23acabcd5692787c7d3b0db886621296.png" Reference="V37UO-nxA0SG182om3oalQ/OscnLCV9N0G2D4bu-54XBg" Selector="&lt;wnd app='excel.exe' cls='XLMAIN' title='填报: BCP9-绝缘电阻测量和工频耐压试验 - Excel' /&gt;" Version="V2" />
       </uix:NApplicationCard.TargetApp>
     </uix:NApplicationCard>
-    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,517" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_9">
+    <ui:InterruptibleDoWhile CurrentIndex="{x:Null}" Condition="[可否继续 &lt;&gt;&quot;是，请保存&quot;]" DisplayName="Do While" sap:VirtualizedContainerService.HintSize="512,517" sap2010:WorkflowViewState.IdRef="InterruptibleDoWhile_9">
       <ui:InterruptibleDoWhile.Body>
         <Sequence DisplayName="正文" sap:VirtualizedContainerService.HintSize="416,385" sap2010:WorkflowViewState.IdRef="Sequence_42">
           <sap:WorkflowViewStateService.ViewState>
@@ -2771,9 +3034,6 @@
           </ui:InputDialog>
         </Sequence>
       </ui:InterruptibleDoWhile.Body>
-      <ui:InterruptibleDoWhile.Condition>
-        <VisualBasicValue x:TypeArguments="x:Boolean" DisplayName="Visual basic value" ExpressionText="可否继续 &lt;&gt;&quot;是，请保存&quot;" />
-      </ui:InterruptibleDoWhile.Condition>
     </ui:InterruptibleDoWhile>
     <uix:NApplicationCard AttachMode="ByInstance" DisplayName="填报 BCP9-绝缘电阻测量和工频耐压试验 - Excel" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="512,944" sap2010:WorkflowViewState.IdRef="NApplicationCard_18" ScopeGuid="823ceded-b36d-4707-98ab-e33233464e47" Version="V2">
       <uix:NApplicationCard.Body>
@@ -2792,7 +3052,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="95b9b547-9eb5-49e9-9043-66ce184089a3" ContentHash="HpgmdEGSFESQJkJ4JZJxuA" CvElementArea="423, 78, 110, 31" CvTextArea="458, 85, 36, 18" CvTextArgument="RF" CvType="Button" DesignTimeRectangle="425, 80, 108, 29" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='cmdOk' /&gt;" Guid="28bbd233-c5b1-4c11-9ba2-cb0cae3c7faa" InformativeScreenshot="61ef59bfe327cfb2b97810837b2608a1.png" Reference="V37UO-nxA0SG182om3oalQ/F_4Id5uzoUWeuqXVWMlSXQ" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='frmRun_CaseSave' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="95b9b547-9eb5-49e9-9043-66ce184089a3" CvElementArea="519, 9, 20, 20" CvType="CloseButton" DesignTimeRectangle="510, 1, 42, 35" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.BUTTON.*' title='r' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='r' /&gt;" Guid="b8b52daf-4d34-49aa-b956-b178ae2c2843" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
@@ -2813,7 +3073,7 @@
               <uix:NClick.Target>
                 <uix:TargetAnchorable CVScreenId="fd855944-b850-460a-a4ad-fd33d4ef58cf" ContentHash="DSF1I3oOt0GRAKU6o32W3w" CvElementArea="152, 140, 101, 35" CvTextArea="183, 150, 36, 16" CvTextArgument="S(N)" CvType="Button" DesignTimeRectangle="153, 141, 100, 35" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='7' title='否(&amp;amp;N)' /&gt;" Guid="aed8f8ec-ce8c-48d7-b454-1f0f7594ff87" InformativeScreenshot="c9bd342950e201b7b373ee00e5109c94.png" Reference="V37UO-nxA0SG182om3oalQ/SgRK0eHlt0yZc3lAY-A1Bg" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='#32770' title='提示' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                   <uix:TargetAnchorable.Anchors>
-                    <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                       <uix:Target CVScreenId="fd855944-b850-460a-a4ad-fd33d4ef58cf" CvElementArea="242, 8, 23, 22" CvType="CloseButton" DesignTimeRectangle="232, 1, 44, 37" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='关闭' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='关闭' /&gt;" Guid="cc62737a-82b3-478d-a2dd-e33571dbcdd3" SearchSteps="FuzzySelector, CV" />
                     </scg:List>
                   </uix:TargetAnchorable.Anchors>
