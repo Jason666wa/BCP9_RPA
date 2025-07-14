@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="GHElbHzNAU6VNp4CdSCYKg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="a07903d3-f4de-439f-a1e9-ad79afde76b0" CvTextArea="109, 114, 27, 14" CvTextArgument="2Fist" CvType="Text" DesignTimeRectangle="109, 114, 27, 14" ElementType="Text" Guid="b93815b2-ff6e-429d-a69c-9cb08cf8e04f" ScopeSelectorArgument="&lt;wnd app='wxwork.exe' cls='WeWorkWindow' title='企业微信' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="e179fd5b588aef242296dcafc83218cb.png" xmlns="">0Y9SlaJL4DEGVcOISoSJlrg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

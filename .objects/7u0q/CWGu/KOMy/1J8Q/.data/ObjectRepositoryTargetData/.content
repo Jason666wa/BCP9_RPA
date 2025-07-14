@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="XZlVmvxym0W6j4GWHrz3eA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f3ef773b-478b-4e21-a42d-e4cde8cd1afb" CvElementArea="691, 636, 112, 34" CvTextArea="720, 645, 51, 18" CvTextArgument="{}{R(S)" CvType="Button" DesignTimeRectangle="693, 638, 110, 33" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='1' title='保存(&amp;amp;S)' /&gt;" Guid="92f28035-0076-4fa2-be17-af6f4555aaf4" ScopeSelectorArgument="&lt;wnd app='wxworkweb.exe' cls='#32770' title='另存为' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f3ef773b-478b-4e21-a42d-e4cde8cd1afb" CvElementArea="816, 636, 111, 34" CvTextArea="855, 645, 32, 16" CvTextArgument="EA" CvType="Button" DesignTimeRectangle="818, 638, 110, 33" ElementType="Button" FuzzySelectorArgument="&lt;wnd ctrlid='2' title='取消' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='取消' /&gt;" Guid="c1d4dab5-555c-4f57-b047-cc9f68c9647b" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="14199fde7d0d814794b7752db8d480e3.png" xmlns="">0ey7iR0W5CUafvlN8NI-_Cw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

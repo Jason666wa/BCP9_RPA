@@ -1,0 +1,13 @@
+﻿{
+  "Name": "业务单据",
+  "Type": "Element",
+  "Id": "ArTItui5hEGe7Ez0mHP_MQ",
+  "Reference": "V37UO-nxA0SG182om3oalQ/ArTItui5hEGe7Ez0mHP_MQ",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/Dz1cr6lx8Ue2PEyYWAXpdg",
+  "Created": "2025-07-04T09:46:40.9243966Z",
+  "Updated": "2025-07-04T09:46:40.9243966Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

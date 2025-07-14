@@ -1,0 +1,12 @@
+﻿{
+  "Name": "另存为",
+  "Type": "App",
+  "Id": "7u0q6DufKkSHQASfpxrPig",
+  "Reference": "V37UO-nxA0SG182om3oalQ/7u0q6DufKkSHQASfpxrPig",
+  "Created": "2025-07-02T03:10:32.0084427Z",
+  "Updated": "2025-07-02T03:10:32.0084427Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

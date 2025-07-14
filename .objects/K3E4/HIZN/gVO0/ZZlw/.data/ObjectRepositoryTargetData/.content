@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fcYEDTvb8EqBGy1cAJ6NKQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="cc546f7e-0d30-4187-bff5-2bde266548ff" CvElementArea="1442, 775, 141, 68" CvTextArea="1493, 798, 39, 21" CvTextArgument="£{{" CvType="Button" DesignTimeRectangle="1442, 775, 141, 68" ElementType="Button" Guid="66e6d8b0-ec34-4c7a-b288-c31f2ef16dd9" ScopeSelectorArgument="&lt;wnd app='gptest.exe' cls='LVDChild' title='TransfomerTests' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="cc546f7e-0d30-4187-bff5-2bde266548ff" CvElementArea="1442, 697, 142, 67" CvType="Button" DesignTimeRectangle="1442, 697, 142, 67" ElementType="Button" Guid="0ed5702c-13bc-43cd-9212-1d79ef4d7e77" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="aa5187d8d77299546142bcc1ea3f5a80.png" xmlns="">0cypn-PVSMUeQ1WcOreyixw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

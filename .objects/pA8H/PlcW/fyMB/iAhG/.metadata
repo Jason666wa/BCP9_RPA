@@ -1,0 +1,13 @@
+﻿{
+  "Name": "BCP8-声级测量",
+  "Type": "Element",
+  "Id": "iAhG0xG4uESLrKNSwAZr-g",
+  "Reference": "V37UO-nxA0SG182om3oalQ/iAhG0xG4uESLrKNSwAZr-g",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/fyMBEa6zt0WwNxeGxRdsZQ",
+  "Created": "2025-07-01T10:54:16.956999Z",
+  "Updated": "2025-07-01T10:54:16.956999Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

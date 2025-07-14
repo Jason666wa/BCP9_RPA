@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="25lfu47I40GBclP2sVzbXw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="c0655040-8cbc-49ca-8e0c-a0c70e437674" CvTextArea="103, 133, 27, 14" CvTextArgument="AT" CvType="Text" DesignTimeRectangle="84, 127, 52, 27" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='tbData' /&gt;&lt;ctrl name='刷新' role='push button' /&gt;" Guid="a5cc18da-0646-4699-952f-eb4b875d7647" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="c0655040-8cbc-49ca-8e0c-a0c70e437674" CvElementArea="302, 92, 102, 33" CvTextArea="314, 102, 74, 16" CvTextArgument="#A3IłE6" CvType="Button" DesignTimeRectangle="303, 94, 100, 30" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;ctrl name='我的工作台' role='page tab' /&gt;" Guid="3bdda15f-6171-4c42-927c-19dd4a729651" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="7adba50380bf35cf1919d84ee6d7ef13.png" xmlns="">08b1ITBhLEEqa4zibRZTKVg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

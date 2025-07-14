@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="rG76H_9JHEOqcCLp9lpfYg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b34fce9d-f335-42fc-ac5f-501c50a63e36" CvTextArea="143, 126, 91, 20" CvTextArgument="FEA9IRES" CvType="Text" DesignTimeRectangle="128, 117, 125, 38" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;ctrl name='我的工作台' role='page tab' /&gt;" Guid="7cb555a2-3e47-440e-8ddf-abca44eba18d" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b34fce9d-f335-42fc-ac5f-501c50a63e36" CvElementArea="4, 115, 128, 42" CvTextArea="48, 127, 37, 18" CvTextArgument="NM1" CvType="Button" DesignTimeRectangle="3, 117, 125, 38" ElementType="TabPage" FuzzySelectorArgument="&lt;wnd ctrlname='tabMain' matching:ctrlname='fuzzy' fuzzylevel:ctrlname='0.0' /&gt;&lt;ctrl name='首页' role='page tab' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='首页' /&gt;" Guid="258a404f-dfac-4f54-aecf-f83de1b686fb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="b281f13fb5847ad1b5bc2818524ef3b1.png" xmlns="">0KUlQaCYizkCFQFOdtyqIrQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

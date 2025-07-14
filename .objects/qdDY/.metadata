@@ -1,0 +1,12 @@
+﻿{
+  "Name": "企业微信-文档",
+  "Type": "App",
+  "Id": "qdDYrm016EGBkJ7emmRTyw",
+  "Reference": "V37UO-nxA0SG182om3oalQ/qdDYrm016EGBkJ7emmRTyw",
+  "Created": "2025-07-02T02:43:36.0330991Z",
+  "Updated": "2025-07-02T02:43:36.0330991Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

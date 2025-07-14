@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="gycLtE92iEGnjXy8u0q2cg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="26bc03a4-4ef7-4f45-8588-083be4a22358" CvElementArea="164, 501, 781, 29" CvType="InputBox" DesignTimeRectangle="169, 506, 752, 22" ElementType="InputBox" FuzzySelectorArgument="&lt;wnd aaname='浏览器窗格' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd aaname='文件名:' cls='ComboBox' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;wnd ctrlid='1001' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' /&gt;" Guid="4f46bfd0-edc1-456a-ac17-be2b41a19fa3" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='wxworkweb.exe' cls='#32770' title='另存为' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="26bc03a4-4ef7-4f45-8588-083be4a22358" CvTextArea="86, 508, 72, 17" CvTextArgument="w#*S(N):" CvType="Text" DesignTimeRectangle="22, 503, 144, 28" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='浏览器窗格' cls='DirectUIHWND' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;&lt;ctrl name='浏览器窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='文件夹布局窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='详细信息窗格' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='文件名:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='文件名:' /&gt;" Guid="c045638d-7053-4295-8db6-9d2cbfe78cfb" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5b35195fbd8cf1a4d5d4218cdac840dd.png" xmlns="">0y4iB8gFNv0-HbgxbYzgxQQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

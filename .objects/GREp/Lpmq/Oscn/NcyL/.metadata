@@ -1,0 +1,13 @@
+﻿{
+  "Name": "低压第二段对高压低压及地(KV)",
+  "Type": "Element",
+  "Id": "NcyLLwWin0CLL95maR0C9w",
+  "Reference": "V37UO-nxA0SG182om3oalQ/NcyLLwWin0CLL95maR0C9w",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/OscnLCV9N0G2D4bu-54XBg",
+  "Created": "2025-07-02T11:05:33.460384Z",
+  "Updated": "2025-07-02T11:05:33.460384Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

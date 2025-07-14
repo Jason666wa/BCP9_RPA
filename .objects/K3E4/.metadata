@@ -1,0 +1,12 @@
+﻿{
+  "Name": "TransfomerTests",
+  "Type": "App",
+  "Id": "K3E4gJ5QukeAhv0VYT8Q6Q",
+  "Reference": "V37UO-nxA0SG182om3oalQ/K3E4gJ5QukeAhv0VYT8Q6Q",
+  "Created": "2025-07-04T03:23:21.6478794Z",
+  "Updated": "2025-07-04T03:23:21.6478794Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

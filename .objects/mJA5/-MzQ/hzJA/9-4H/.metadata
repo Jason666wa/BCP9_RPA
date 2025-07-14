@@ -1,0 +1,14 @@
+﻿{
+  "Name": "T458g]",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "9-4H-4b7BU6nGJpho0t8Vg",
+  "Reference": "V37UO-nxA0SG182om3oalQ/9-4H-4b7BU6nGJpho0t8Vg",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/hzJAM7ahukybWPdv8N3PYw",
+  "Created": "2025-07-02T09:47:32.7290206Z",
+  "Updated": "2025-07-02T09:47:32.7290206Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "试验站(1)",
+  "Type": "Element",
+  "Id": "8VZhTBl_OEitCzINjjOeLA",
+  "Reference": "V37UO-nxA0SG182om3oalQ/8VZhTBl_OEitCzINjjOeLA",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/fyMBEa6zt0WwNxeGxRdsZQ",
+  "Created": "2025-07-02T08:56:32.9515053Z",
+  "Updated": "2025-07-02T08:56:32.9515053Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

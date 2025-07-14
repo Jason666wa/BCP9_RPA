@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="DSF1I3oOt0GRAKU6o32W3w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="fd855944-b850-460a-a4ad-fd33d4ef58cf" CvElementArea="152, 140, 101, 35" CvTextArea="183, 150, 36, 16" CvTextArgument="S(N)" CvType="Button" DesignTimeRectangle="153, 141, 100, 35" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlid='7' title='否(&amp;amp;N)' /&gt;" Guid="aed8f8ec-ce8c-48d7-b454-1f0f7594ff87" ScopeSelectorArgument="&lt;wnd app='excel.exe' cls='#32770' title='提示' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fd855944-b850-460a-a4ad-fd33d4ef58cf" CvElementArea="242, 8, 23, 22" CvType="CloseButton" DesignTimeRectangle="232, 1, 44, 37" ElementType="Button" FuzzySelectorArgument="&lt;ctrl name='关闭' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='关闭' /&gt;" Guid="cc62737a-82b3-478d-a2dd-e33571dbcdd3" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="c9bd342950e201b7b373ee00e5109c94.png" xmlns="">0_M-bpf3mOk-DCx01jWaeWA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "质量中心",
+  "Type": "Element",
+  "Id": "jCmVnzF4fkCXVbwy5_OZEQ",
+  "Reference": "V37UO-nxA0SG182om3oalQ/jCmVnzF4fkCXVbwy5_OZEQ",
+  "ParentRef": "V37UO-nxA0SG182om3oalQ/fyMBEa6zt0WwNxeGxRdsZQ",
+  "Created": "2025-07-02T08:31:54.2466786Z",
+  "Updated": "2025-07-02T08:31:54.2466786Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

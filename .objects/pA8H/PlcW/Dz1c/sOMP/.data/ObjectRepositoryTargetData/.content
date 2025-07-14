@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="JrPyAvfev0ORzRnL4b2fNQ" Reference="V37UO-nxA0SG182om3oalQ/sOMPB0MBZ0SL1P13831lVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="510, 157, 52, 27" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;wnd cls='WindowsForms10.Window.*' title='我的工作台' /&gt;&lt;wnd ctrlname='uo_Data' /&gt;&lt;wnd ctrlname='sptV' /&gt;&lt;wnd ctrlname='tbGrd' /&gt;&lt;ctrl name='新建' role='push button' /&gt;" Guid="6c5bcd69-856c-4c29-bc5a-efca4753528b" ImageBase64="" ScopeSelectorArgument="&lt;wnd app='es2012.exe' ctrlname='Frm_CAXMain' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="3, 94, 100, 30" ElementType="TabPage" FullSelectorArgument="&lt;wnd ctrlname='tabMain' /&gt;&lt;ctrl name='首页' role='page tab' /&gt;" Guid="4e6534dd-4c2f-417f-ac6a-7921674bae5c" ImageBase64="" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="5cd8adbe599c407079abaa7201aa394a.png" xmlns="">0hbHSafge50CGH4sbwLEqKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

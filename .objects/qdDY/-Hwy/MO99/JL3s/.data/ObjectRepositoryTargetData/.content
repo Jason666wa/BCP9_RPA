@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Sh5cYpi7VEiWx8uzfXm6Ew" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b2701f45-199b-42c3-8470-fe91b5d061ac" CvElementArea="1869, 578, 19, 20" CvTextArea="1646, 580, 30, 16" CvTextArgument="581" CvType="ArrowButton" DesignTimeRectangle="1628, 569, 274, 39" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' /&gt;&lt;ctrl name='导出' role='menu item' /&gt;" Guid="bcaefa46-02c9-4672-8824-7f369f532624" ScopeSelectorArgument="&lt;wnd app='wemail.exe' cls='Qt*QWindowIcon' title='企业微信-文档' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b2701f45-199b-42c3-8470-fe91b5d061ac" CvTextArea="1646, 715, 57, 15" CvTextArgument="IRHXH" CvType="Text" DesignTimeRectangle="1628, 704, 274, 38" FuzzySelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='退出文档' role='menu item' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='退出文档' /&gt;" Guid="4707158e-eb22-4889-a77a-ea960e523c74" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset Position="BottomLeft" X="28" Y="-15" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="feaf13d5795ea97c5f548bd68f503cc3.png" xmlns="">0Ug8wg8JAqEGIY2NUYfBSLA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RUHuJZsQGECovCWReFjD4g" Reference="V37UO-nxA0SG182om3oalQ/3h5bTkBbmk2vPVLok8yZEQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="75, 125, 467, 892" FuzzySelectorArgument="&lt;wnd cls='WXworkWindow - 企业微信-文档' title='企业微信-文档' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='企微文档' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='WeMail' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='WeMail' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='WeMail' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='WeMail' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;qt role='ConvListView' /&gt;" Guid="28903fc4-12fd-416d-9c01-75bf702473cf" ScopeSelectorArgument="&lt;wnd app='wxwork.exe' cls='WeWorkWindow' title='企业微信' /&gt;" SearchSteps="FuzzySelector" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="82, 78, 84, 45" FuzzySelectorArgument="&lt;wnd cls='WXworkWindow - 企业微信-文档' title='企业微信-文档' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='企微文档' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='WeMail' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='WeMail' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='WeMail' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;wnd cls='Qt*QWindowIcon' title='WeMail' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;qt rawtext='与我相关' role='TabButton' matching:rawtext='fuzzy' fuzzylevel:rawtext='0.0' check:text='与我相关' /&gt;" Guid="d3d30a68-3477-4a45-abce-a919c6ba3064" SearchSteps="FuzzySelector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="2a22a0039e607068f1ceea8a7b60cf2b.png" xmlns="">0QYwIpZr7nUGzv_yQZJt0SQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">MouseScrollSearchedElement</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

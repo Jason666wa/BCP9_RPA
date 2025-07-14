@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="HpgmdEGSFESQJkJ4JZJxuA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="95b9b547-9eb5-49e9-9043-66ce184089a3" CvElementArea="423, 78, 110, 31" CvTextArea="458, 85, 36, 18" CvTextArgument="RF" CvType="Button" DesignTimeRectangle="425, 80, 108, 29" ElementType="Button" FullSelectorArgument="&lt;wnd ctrlname='cmdOk' /&gt;" Guid="28bbd233-c5b1-4c11-9ba2-cb0cae3c7faa" ScopeSelectorArgument="&lt;wnd app='excel.exe' ctrlname='frmRun_CaseSave' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="95b9b547-9eb5-49e9-9043-66ce184089a3" CvElementArea="519, 9, 20, 20" CvType="CloseButton" DesignTimeRectangle="510, 1, 42, 35" ElementType="Button" FuzzySelectorArgument="&lt;wnd cls='WindowsForms10.BUTTON.*' title='r' fuzzylevel:cls='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' check:text='r' /&gt;" Guid="b8b52daf-4d34-49aa-b956-b178ae2c2843" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="61ef59bfe327cfb2b97810837b2608a1.png" xmlns="">0a2usrMoUzE-oKWXb7G0bcQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="RFjB5G6PVkWjvaxa1Eov4w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="183236c0-309f-4e34-b2fe-e55aa54388c3" CvElementArea="1869, 70, 31, 29" CvType="Icon" DesignTimeRectangle="1870, 69, 30, 31" ElementType="Icon" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' /&gt;&lt;ctrl name='titlebar' role='tool bar' /&gt;&lt;ctrl name='file' role='grouping' /&gt;&lt;ctrl role='graphic' /&gt;" Guid="62d19a2c-0322-4686-a892-b5619c35a2ef" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACWSURBVFhH7da7CYBAEIRhKxMRA7EXwcR6RBTb8XFaiHcFrGzoBJsoPmA+2MRg+LMzko+I8MNbGIIYghiCGILMEO+9tN0gTdtfOt3Yd4/zJ2aIc5uUVX3L6ZbFDHkSQxBD0D9CFrdKkhUSp/ml041pXnD+xAwJIcg4zbecblnMkCcxBDEEmSH6dPM34C0MQQxBDEGfCTkA1Y/tWPrm66YAAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;wnd app='wemail.exe' cls='Qt*QWindowIcon' title='企业微信-文档' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="183236c0-309f-4e34-b2fe-e55aa54388c3" CvElementArea="1770, 69, 28, 29" CvType="Icon" DesignTimeRectangle="1770, 69, 30, 31" ElementType="Icon" FullSelectorArgument="&lt;wnd cls='Chrome_WidgetWin_1' /&gt;&lt;ctrl name='智能制造新员工培训考试' role='document' /&gt;&lt;ctrl name='titlebar' role='tool bar' /&gt;&lt;ctrl idx='3' role='graphic' /&gt;" Guid="2c090a76-cfac-4133-9dee-612e7369013d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAGISURBVFhH7dZLSwJRGMZxP1lRUmlZRhcQ2kQUQTeKNK+FHyKKIoigshsZRddNJZJ2Q22TdllZmS5sbQpPnLOQeIfGOQpWMn8YZF6dOT/OuBgN/kgaOvitVAhNhdBUCK0kiP8igJ6+AcTjL/Qr4YqGnJ75UFPXhKpaHYztppIxRUEOjk44wO50888J+yQMrZ14fHqmP1WcMGT/8BjVWj0861sIR+44JJvNwuqYQmNLB6KxB3qJooQgDMEWZghWKBzh56xcLgeHy416vRGvbwlyZeGEIN6dPWx7d/Pn3yEshlnxbCCZSuVnShOC0CiklP4HpNAWK4FkMp9Ipz/oWJIshP3x7qMxOs6nBLK6tgmLzUXHkmQhbBG22E8pgSwuLWN41ELHkioDwp4923q5ygJRkgqhVRaEvW8Egld0LNTs3ALGzDY6liQL6e0fgtnqRPDymu+M6HHu88PU1Y3pmXl6a0mykJvbEAZHxqFtaOaPSfTQGdr4y1PiPUlvLUkWUs5UCE2F0FQI7Qs6r94Cb3m2KAAAAABJRU5ErkJggg==" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="640e5a0e88f72c14e264ac112bf8e73b.png" xmlns="">0LvTSblzDZ0Obiip99WnqdQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
